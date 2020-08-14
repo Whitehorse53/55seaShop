@@ -27,6 +27,14 @@ task('sass', async ()=>{
   .pipe(dest('./rev/css'))
 })
 
+
+// 处理json
+task('json', async ()=>{
+  src('./data/*.json')
+  .pipe(dest('./dist/json'))
+  .pipe(load.rev.manifest())
+  .pipe(dest('./rev/data'))
+})
 // 处理js
 task('script', async ()=>{
   src('./script/*.js')
@@ -40,7 +48,7 @@ task('script', async ()=>{
 
 // 处理html
 task('html', async ()=>{
-  src(['./rev/**/*.json','./pages/*.html'])
+ await src(['./rev/**/*.json','./pages/*.html'])
   .pipe(load.revCollector({replaceReved:true}))
   .pipe(load.minifyHtml())
   .pipe(dest('./dist/pages'))
@@ -64,4 +72,4 @@ task('connect',async ()=>{
 })
 
 // 构建生产包
-task('build',series('delDist','image','sass','script','html','connect'))
+task('build',series('delDist','image','sass','script','json','html','connect'))
