@@ -23,28 +23,234 @@
                 </div>
                 <!-- 搜索栏 -->
                 <div class="head_top_up_search">
-                    <input type="text" value='搜索优惠、商家、品牌，以及商品链接'>
-                    <input type='button' value='搜索'>
+                    <input type="text" class="head_top_up_search_first" placeholder='搜索优惠、商家、品牌，以及商品链接'>
+                    <input type='button' class="head_top_up_search_last" value='搜索'>
                 </div>
                 <!-- 右边的消息 -->
-                <div class="herad_top_up_invite"></div>
+                <div class="head_top_up_invite">
+                    <img src="../image/img2/20200610134540459.png" alt="">
+                    <div>
+                        <h3>立得 5 美元</h3>
+                        <p>每邀请一位好友</p>
+                    </div>
+                </div>
             </div>
             <!-- head下边部分 -->
             <div class="head_top_nav_down">
                 <!-- head的list列表 -->
                 <ul class='head_top_nav_down_list'>
-                    <li>首页</li>
-                    <li>优惠<i class="iconfont icon-03-copy"></i></li>
-                    <li>商家<i class="iconfont icon-03-copy"></i></li>
-                    <li>社区</li>
-                    <li>攻略</li>
-                    <li>转运</li>
-                    <li>更多<i class="iconfont icon-03-copy"></i></li>
+                    <li class='head_top_nav_down_list_first'> <a href="#">首页</a> </li>
+                    <li> <a href="#">优惠</a> <i class="iconfont icon-03-copy"></i>
+                        <ul>
+                            <li> <a href="#">海淘返利</a> </li>
+                            <li> <a href="#">淘宝返利</a> </li>
+                            <li> <a href="#">京东返利</a> </li>
+                            <li> <a href="#">旅游返利</a> </li>
+                        </ul>
+
+                    </li>
+                    <!-- 商家 -->
+                    <li class="head_top_nav_down_list_noBorder head_top_nav_down_list_shops">
+                        <div class="head_top_nav_down_list_shops_font">
+                            <a href="#">商家</a> <i class="iconfont icon-03-copy"></i>
+                        </div>
+                        <!-- 隐藏的部分 -->
+                        <div class="head_top_nav_down_list_shops_list">
+                            <!-- 隐藏部分的商家 -->
+                            <div class="head_top_nav_down_list_shops_list_in"> <a href="#">商家</a> <i
+                                    class="iconfont icon-03-copy"></i></div>
+                            <!-- 商家列表 -->
+                            <ul class="head_top_nav_down_list_shops_list_ul">
+                                <li> <i class="iconfont 
+                                icon-weishengzhi
+                                "></i>综合商家
+
+                                </li>
+                                <li> <i class="iconfont icon-meizhuang"></i>美妆个护
+                                </li>
+                                <li> <i class="iconfont icon-maozi"></i>服饰包装
+                                </li>
+                                <li> <i class="iconfont icon-shoes"></i>球鞋潮鞋
+                                </li>
+                                <li> <i class="iconfont icon-4"></i>母婴儿童
+                                </li>
+                                <li> <i class="iconfont icon-shipin"></i>食品保健
+                                </li>
+                                <li> <i class="iconfont icon-lanqiu"></i>户外运动
+                                </li>
+                                <li> <i class="iconfont icon-biao"></i>钟表饰品
+                                </li>
+                                <li> <i class="iconfont icon-jiudian1"></i>酒店机票
+                                </li>
+                                <li> <i class="iconfont icon-guonei"></i>国内商家
+                                </li>
+                            </ul>
+
+
+<!-- 独立出来的显示模块 -->
+                            <div class="head_top_nav_down_list_shops_list_ul_li_details">
+                                <!-- 请求数据并循环的部分 -->
+                                <div class="head_top_nav_down_list_shops_list_ul_li_details_show_1">综合商家</div>
+                                <div div class="head_top_nav_down_list_shops_list_ul_li_details_show_2">推荐商家</div>
+<!-- -------》 -->
+<!-- -------》 -->
+<!-- -------》 -->
+<!-- -------》 -->
+                                  <!-- 需要数据循环的部分 -->
+                                <div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+                                    <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+                                    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+                                    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+                                    <span
+                                        class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+                                </div>
+ <!-- 需要数据循环的部分 -->
+ <div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+    <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+    <span
+        class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+</div>
+ <!-- 需要数据循环的部分 -->
+ <div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+    <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+    <span
+        class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+</div>
+ <!-- 需要数据循环的部分 -->
+ <div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+    <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+    <span
+        class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+</div>
+ <!-- 需要数据循环的部分 -->
+ <div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+    <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+    <span
+        class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+</div>
+ <!-- 需要数据循环的部分 -->
+ <div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+    <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+    <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+    <span
+        class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+</div> <!-- 需要数据循环的部分 -->
+<div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+   <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+   <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+   <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+   <span
+       class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+</div> <!-- 需要数据循环的部分 -->
+<div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+   <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+   <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+   <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+   <span
+       class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+</div> <!-- 需要数据循环的部分 -->
+<div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+   <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+   <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+   <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+   <span
+       class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+</div> <!-- 需要数据循环的部分 -->
+<div class="head_top_nav_down_list_shops_list_ul_li_details_show_card">
+   <img class="head_top_nav_down_list_shops_list_ul_li_details_show_img" src="" alt="">
+   <span class="head_top_nav_down_list_shops_list_ul_li_details_show_3">亚马逊海外购</span>
+   <span class="head_top_nav_down_list_shops_list_ul_li_details_show_4">超高3%返利</span>
+   <span
+       class="head_top_nav_down_list_shops_list_ul_li_details_show_5">46.2万人获得返利</span>
+
+</div>
+
+<!-- 《---------- -->
+<!-- 《---------- -->
+<!-- 《---------- -->
+<!-- 《---------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="head_top_nav_down_list_noBorder"> <a href="#">社区</a> </li>
+                    <li class="head_top_nav_down_list_noBorder"> <a href="#">攻略</a> </li>
+                    <li class="head_top_nav_down_list_noBorder"> <a href="#">转运</a> </li>
+                    <li> <a href="#">更多</a> <i class="iconfont icon-03-copy"></i>
+                        <ul>
+                            <li> <a href="#">帮助</a> </li>
+                            <li> <a href="#">关于我们</a> </li>
+                        </ul>
+                    </li>
                 </ul>
                 <!-- 列表右边的部分 -->
                 <div class="head_top_nav_down_right">
                     <!-- 世界时间 -->
-                    <div class="head_top_nav_down_right_time"></div>
+                    <div class="head_top_nav_down_right_time">
+                        时间：纽约 <span>8月14日22:18</span><i class="iconfont icon-03-copy"></i>
+                        <ul>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                            <li>时间：纽约 <span>8月14日22:18</span></li>
+                        </ul>
+                    </div>
                     <!-- 浏览器 手机 铃铛图标 -->
                     <div class="head_top_nav_down_right_mark">
                         <i class="iconfont icon-liulanqi"></i>

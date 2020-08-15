@@ -1,60 +1,464 @@
-li {
-	color: blueviolet;
-}
 // head的外围
 .head_top_weap {
 	width: 100%;
 	height: 141px;
-    background-color: #fff;
-    //head的内容部分
+	background-color: #fff;
+	//head的内容部分
 	.head_top_bar {
 		width: 1200px;
 		height: 116px;
 		padding-top: 26px;
-        margin: 0 auto;
-        //head的上部分
+		margin: 0 auto;
+		position: relative;
+		// background-color:red;
+		//head的上部分
 		.head_top_nav_up {
-            //logo图片
+			position: relative;
+			overflow: hidden;
+			//logo图片
 			.head_top_up_logo {
 				img {
 					width: 120px;
 					height: 50px;
+					float: left;
 				}
-            }
-            //搜索栏部分
-            .head_top_up_search{
-                width: 596px;
-                height: 36px;
-                border:2px solid #f67052;
-                .head_top_up_search:first-child{
-                    display: block;
-                    width: 484px; 
-                    height: 36px; 
-                    padding-left:16px;
-                }
-                .head_top_up_search:nth-child(2){
-                    display: block;
-                    width: 76px; 
-                    height: 36px;
-                }
-            }
-          
-        }
-        // head的下部分
-        .head_top_nav_down{
-            //head的下部分列表
-            ul{
-                li{
-                    float: left;
-                }
-            }
-            //列表右边的部分
-            .head_top_nav_down_right{
-                float: right;
-                div{
-                    float: left;
-                }
-            }
-        }
+			}
+			//搜索栏部分
+			.head_top_up_search {
+				width: 596px;
+				height: 36px;
+				border: 2px solid #f67052;
+				color: #1d1d1f;
+				border-radius: 4px;
+				background: #ffffff;
+				align-items: center;
+				position: absolute;
+				top: 5px;
+				left: 50%;
+				margin-left: -298px;
+
+				.head_top_up_search_first {
+					width: 468px;
+					height: 34px;
+					padding-left: 16px;
+					border: none;
+					background: none;
+					color: #1d1d1f;
+					font-size: 14px;
+					line-height: 36px;
+					outline: none;
+				}
+				.head_top_up_search_last {
+					width: 76px;
+					height: 36px;
+					float: right;
+					border: 0px solid #fff;
+					padding-left: 2px;
+					height: 36px;
+					border: none;
+					color: #ffffff;
+					font-size: 16px;
+					font-weight: 600;
+					text-align: center;
+					line-height: 36px;
+					cursor: pointer;
+					outline: none;
+					background-color: #f67052;
+				}
+			}
+			//head上部分的广告部分
+			.head_top_up_invite {
+				float: right;
+				width: 134px;
+				height: 50px;
+				cursor: pointer;
+				img {
+					float: left;
+					width: 38px;
+					height: 48px;
+					margin-right: 12px;
+				}
+				h3 {
+					color: #f67052;
+					font-size: 16px;
+					font-weight: 600;
+				}
+				p {
+					color: #1f1f1f;
+					font-size: 12px;
+					font-weight: 600;
+					line-height: 16px;
+					margin-top: 1px;
+				}
+			}
+		}
+		// head的下部分
+		.head_top_nav_down {
+			padding-top: 20px;
+			//head的下部分列表
+			.head_top_nav_down_list {
+				& > li {
+					float: left;
+					padding-bottom: 16px;
+
+					line-height: 30px;
+					// margin-left: 48px;
+					width: 100px;
+					text-align: center;
+					border: 1px solid #fff;
+					border-radius: 5px;
+					a {
+						font-size: 16px;
+						font-weight: 600;
+						color: #1f1f1f;
+						cursor: pointer;
+					}
+					i {
+						margin-left: 4px;
+					}
+					//打开显示的详情页
+					& > ul {
+						padding-top: 4px;
+						display: none;
+						li {
+							align-items: center;
+							justify-content: center;
+							color: #1f1f1f;
+							width: 100%;
+							height: 36px;
+						}
+						a {
+							font-size: 14px;
+							font-weight: 600;
+							line-height: 36px;
+						}
+						a:hover {
+							color: #f67052;
+						}
+					}
+				}
+				//商家
+				.head_top_nav_down_list_shops {
+					//商家列表的展开页、
+					position: relative;
+					//商家的隐藏部分
+					.head_top_nav_down_list_shops_list {
+						// ----》显示模块的左侧部分样式
+						width: 208px;
+						background: #ffff;
+						height: 641px;
+						position: absolute;
+						/* bottom: -549px; */
+						line-height: 2.25;
+						left: -2px;
+						z-index: 20;
+						border: 1px solid #eee;
+						border-right: none;
+						border-top-left-radius: 5px;
+						border-bottom-left-radius: 5px;
+						padding: 8px 0;
+						box-sizing: border-box;
+						display: none;
+						justify-content: space-between;
+
+						//里面的商家
+						.head_top_nav_down_list_shops_list_in {
+							text-align: left;
+							margin-left: 24px;
+							margin-bottom: 16px;
+							line-height: 28px;
+							font-size: 16px;
+							font-weight: 600;
+							cursor: pointer;
+							align-items: center;
+							position: relative;
+							a {
+								color: #f67052;
+							}
+						}
+						//独立出来的显示模块中的列
+						.head_top_nav_down_list_shops_list_ul {
+							justify-content: space-between;
+							//每一个列
+							li {
+								font-size: 14px;
+								height: 49px;
+								padding-left: 18px;
+								padding-bottom: 2px;
+								// line-height: 47px;
+								text-align: left;
+								align-items: center;
+								// background-size: 16px;
+								// background-repeat: no-repeat;
+								// background-position: 26px center;
+
+								font-weight: 600;
+								color: #656565;
+								i {
+									margin-right: 26px;
+								}
+								&:hover {
+									color: #f67052;
+								}
+							}
+							// 《-----独立模块的左侧部分样式到此结束
+							
+						}
+
+						// ------》独立出来的右侧模块
+						.head_top_nav_down_list_shops_list_ul_li_details {
+							width: 585px;
+							height: 629px;
+							position: absolute;
+							top: -1px;
+							left: 207px;
+							background: #ffffff;
+							 padding-left:24px;
+							 padding-top:10px;
+							z-index: 9;
+							display: none;
+							overflow: hidden;
+							border: 1px solid #eee;
+							// box-shadow: 0 0 32px rgba(60, 60, 60, 0.05);
+							cursor: default;
+							border-top-right-radius: 5px;
+							border-bottom-right-radius: 5px;
+							//每个商家的信息
+							.head_top_nav_down_list_shops_list_ul_li_details_show_1 {
+								text-align: left;
+								font-size: 14px;
+								font-weight: 600;
+								line-height: 24px;
+								color: #1f1f1f;
+								cursor: default;
+								margin-bottom:30px;
+								&:hover{
+									color: #f67052;
+								}
+							}
+							.head_top_nav_down_list_shops_list_ul_li_details_show_2 {
+								text-align: left;
+								font-size: 12px;
+								font-weight: 600;
+								line-height: 16px;
+								color: #979797;
+								cursor: default;
+								margin-bottom: 12px;
+							}
+							//独立出来的显示模块的单个部分
+							.head_top_nav_down_list_shops_list_ul_li_details_show_card {
+								float: left;
+								height: 86px;
+								width: 50%;
+								margin-bottom: 24px;
+								color: #656565;
+								// line-height: 47px;
+								font-size: 16px;
+								font-weight: 600;
+								// background-color: saddlebrown;
+								margin-bottom:24px;
+								//图片
+								.head_top_nav_down_list_shops_list_ul_li_details_show_img {
+									float: left;
+								
+									height: 84px;
+									width: 84px;
+									border-radius: 5px;
+									display: flex;
+									align-items: center;
+									background-color: seagreen;
+								}
+								.head_top_nav_down_list_shops_list_ul_li_details_show_3 {
+									float:left;
+									text-align: left;
+									margin-left: 20px;
+								    width: 145px;
+									height: 24px;
+									color: #1f1f1f;
+									font-size: 14px;
+									font-weight: 600;
+									&:hover{
+										color: #f67052;
+									}
+								}
+								.head_top_nav_down_list_shops_list_ul_li_details_show_4 {
+									float:left;
+									text-align: left;
+									margin-left: 20px;
+									width: 145px;
+									color: #ff4200;
+									font-size: 12px;
+									margin-top:10px;
+									height: 26px;
+									line-height: 26px;
+								}
+								.head_top_nav_down_list_shops_list_ul_li_details_show_5 {
+									float:left;
+									text-align: left;
+									margin-left: 20px;
+									width: 145px;
+									
+									height: 16px;
+									color: #979797;
+									font-size: 12px;
+								}
+							}
+						}
+						// 《------独立出来的右侧的模块到此结束
+						//鼠标进去独立显示模块，右边的部分即显示
+						&:hover {
+							.head_top_nav_down_list_shops_list_ul_li_details {
+								display: block;
+							}
+						}
+					}
+					//鼠标经过商家，商家的隐藏模块显示出来
+					&:hover {
+						.head_top_nav_down_list_shops_list {
+							display: block;
+							
+							top: 0px;
+						}
+					}
+				}
+				//鼠标经过首页模块的变化
+				.head_top_nav_down_list_first {
+					margin-left: -35px;
+
+					a {
+						color: #f67052;
+					}
+					&:hover {
+						border: 1px solid #fff;
+						padding-top: 6px;
+						// padding-left: 0px;
+						// margin-right: 0px;
+						text-indent: 0px;
+					}
+				}
+				//鼠标经过列表的变化
+				& > li:hover {
+					margin-top: -6px;
+					padding-top: 7px;
+					// padding-left: 1px;
+					text-indent: 1px;
+					// margin-right: -1px;
+					border: 1px solid #eee;
+					color: #f67052;
+
+					& > a {
+						color: #f67052;
+					}
+					& > ul {
+						display: block;
+					}
+				}
+				//鼠标经过无边框
+				.head_top_nav_down_list_noBorder:hover {
+					border: 1px solid #fff;
+					// padding-left: 0px;
+					padding-top: 6px;
+					// margin-right: 0px;
+					text-indent: 0px;
+				}
+			}
+
+			//列表右边的部分
+			.head_top_nav_down_right {
+				margin-top: 4px;
+				float: right;
+				div {
+					float: left;
+					cursor: pointer;
+				}
+				//世界时间
+				.head_top_nav_down_right_time {
+					margin-top: -6px;
+					// height: 20px;
+					line-height: 20px;
+					margin-right: 16px;
+					padding: 6px 16px 0 24px;
+					// position: relative;
+					width: 174px;
+					color: #1f1f1f;
+					font-size: 12px;
+					border: 1px solid #fff;
+
+					i {
+						font-size: 12px;
+						padding-left: 6px;
+						color: #656565;
+					}
+					ul {
+						// position: absolute;
+						// left: 0;
+						// top: 32px;
+						padding-top: 4px;
+						padding-bottom: 8px;
+						width: 190px;
+						// color: #1f1f1f;
+						// font-size: 12px;
+						line-height: 28px;
+						border-radius: 4px;
+						border-top: none;
+						z-index: 100;
+						display: none;
+						li:hover {
+							color: #f67052;
+						}
+					}
+				}
+				.head_top_nav_down_right_time:hover {
+					border: 1px solid #eee;
+					border-radius: 4px;
+					ul {
+						display: block;
+					}
+				}
+				//浏览器 手机 铃铛图标
+				.head_top_nav_down_right_mark {
+					.icon-liulanqi {
+						width: 24px;
+						height: 24px;
+						margin-right: 16px;
+						margin-right: 32px;
+					}
+					.icon-shouji {
+						width: 24px;
+						height: 24px;
+						margin-right: 16px;
+					}
+					.icon-lingdang {
+						width: 24px;
+						height: 24px;
+						margin-right: 40px;
+					}
+					i:hover {
+						color: #f67052;
+					}
+				}
+				//登录按钮
+				.head_top_nav_down_right_login {
+					margin-right: 16px;
+					color: #1f1f1f;
+					font-size: 14px;
+					height: 20px;
+					line-height: 20px;
+					&:hover {
+						color: #f67052;
+					}
+				}
+				//注册按钮
+				.head_top_nav_down_right_sign {
+					color: #1f1f1f;
+					font-size: 14px;
+					height: 20px;
+					line-height: 20px;
+					&:hover {
+						color: #f67052;
+					}
+				}
+			}
+		}
 	}
 }
