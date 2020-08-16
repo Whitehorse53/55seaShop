@@ -1,108 +1,345 @@
-// 变量
-$width:100px;
-$color:red;
-$num:50%*10;
-// $num:50*10px;
-// sass支持的单行注释，这个注释不会被编译到css文件中
-/* 
-  多行注释
-  这个注释会被编译到css文件中
-*/
-h1{
-  color: blue;
-  // font-size: $num2; 访问不到
+.awiper_inset {
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	// overflow-y:auto
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
 }
-.box{
-  $num2:20px;
-  width: $width;
-  height: 50px;
-  p{
-    width: $num;
-    font-size: $num2;
-    color: $color;
-    background-color: #ccc;
-  }
+.swiper-container {
+	left: -800px;
+	width: 2880px;
+	height: 424px;
+	margin: 0 auto;
+	.swiper-pagination {
+		// position: relative;
+		// text-align: center;
+		// top: 400px;
+		transform: translateX(-148px);
+	}
+	.swiper-button-prev {
+		top: 50%;
+		margin-top: -21px;
+		height: 42px;
+		width: 42px;
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		outline: none;
+		cursor: pointer;
+		z-index: 10000;
+		position: absolute;
+		left: calc(50% - 640px);
+	}
+	.swiper-button-next {
+		top: 50%;
+		margin-top: -21px;
+		height: 42px;
+		width: 42px;
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		outline: none;
+		cursor: pointer;
+		z-index: 10000;
+		position: absolute;
+		right: calc(50% - 560px + 296px);
+	}
 }
 
-// 嵌套语法
-// 父选择器的标识符 &
-.show{
-  color: red;
-  text-align: center;
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
 }
-.wrap{
-  width: 1000px;
-  margin: auto;
-  .header{
-    height: 80px;
-    background-color: #ccc;
-    .title{
-      @extend .show;
-    }
-  }
-  .main{
-    height: 300px;
-    background-color: pink;
-    &-title{
-      @extend .show;
-    }
-    &-content{
-      text-align: center;
-      a{
-        color: red;
-        &:hover{
-          color: yellow;
-        }
-        &:visited{
-          color: #999;
+.connect_inset {
+	width: 1200px;
+	height: 400px;
+	background-color: tomato;
+	margin: 0 auto;
+}
+//banner上面的图
+.banner_up {
+	width: 296px;
+	background: rgba(255, 255, 255, 0.88);
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: calc(50% - 600px);
+	bottom: 0;
+	padding: 42px 48px;
+	box-sizing: border-box;
+	z-index: 100;
+	a {
+		display: block;
+		div {
+			background-image: url(../image/img2/4400_f61726_15694042493456.png);
+			background-color: #000000;
+			background-size: 120px;
+			margin: 16px auto 12px;
+			height: 136px;
+			width: 136px;
+			border-radius: 4px;
+			background-position: center;
+		}
+	}
+	& > div:nth-child(1) {
+		height: 32px;
+		color: #1f1f1f;
+		font-size: 20px;
+		font-weight: 600;
+		text-align: center;
+		line-height: 32px;
+		white-space: nowrap;
+	}
+	& > div:nth-child(3) {
+		margin: 0 auto;
+		height: 24px;
+		font-size: 14px;
+		line-height: 24px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-align: center;
+		color: #000;
+	}
+	& > div:nth-child(4) {
+		margin: 8px auto;
+		height: 16px;
+		color: #979797;
+		font-size: 12px;
+		text-align: center;
+		line-height: 16px;
+	}
+	& > div:nth-child(5) {
+		padding-bottom: 16px;
+		height: 32px;
+		color: #f67052;
+		font-size: 20px;
+		font-weight: 600;
+		text-align: center;
+		line-height: 32px;
+	}
+	& > div:nth-child(6) {
+		display: block;
+		width: 200px;
+		height: 40px;
+		color: #ffffff;
+		line-height: 40px;
+		text-align: center;
+		font-size: 14px;
+		font-weight: 600;
+		margin: 0 auto;
+		background: #f67052;
+		border-radius: 5px;
+	}
+}
+//------->
+//------->
+//------->
+//------->
+//返利商家的部分
+.rebate_merchant_weap{
+  background: #f6f6f6;
+  width: 100%;
+}
+.rebate_merchant {
+	width: 1200px;
+	margin: 18px auto 0px;
+	// background-color: turquoise;
+	.rebate_merchant_list {
+		margin-bottom: 18px;
+		height: 40px;
+		span {
+			float: left;
+			font-size: 20px;
+			font-weight: 600;
+			color: #1f1f1f;
+			line-height: 32px;
+		}
+		ul {
+			margin-left: 48px;
+			float: left;
+
+			li {
+				float: left;
+				cursor: pointer;
+				color: #1f1f1f;
+				font-size: 16px;
+				margin-left: 24px;
+				line-height: 32px;
+				height: 32px;
+				display: flex;
+				align-items: center;
+				&:hover {
+					font-weight: 600;
+				}
+			}
+			li:nth-child(1) {
+				margin-left: 0px;
+			}
+		}
+		div {
+			float: left;
+			cursor: pointer;
+			color: #1f1f1f;
+			font-size: 16px;
+			margin-left: 24px;
+			line-height: 32px;
+			height: 32px;
+			display: flex;
+			align-items: center;
+			i {
+				margin-left: 6px;
+				margin-top: 3px;
+			}
+			&:hover {
+				color: #f67052;
+			}
+		}
+	}
+	.rebate_merchant_logo {
+		width: 1200px;
+		min-height: 473px;
+		background-color: wheat;
+		margin: 0 auto;
+		// display: flex;
+		//  flex-wrap: wrap;
+
+		li {
+      &:hover{
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.04);
+      }
+			height: 221px;
+			padding-top: 20px;
+			padding-bottom: 24px;
+			float: left;
+			width: 186px;
+			position: relative;
+			background-color: #fff;
+			// background-color: turquoise;
+			margin-bottom: 16px;
+			margin-right: 16.7px;
+			border-radius: 4px;
+			border: 1px solid #ececec;
+
+			box-sizing: border-box;
+			a {
+				div {
+					height: 96px;
+					width: 96px;
+					background-color: red;
+					margin: 0 auto;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					border-radius: 5px;
+				}
+				p:nth-child(2) {
+					height: 24px;
+					color: #1f1f1f;
+					font-size: 14px;
+					font-weight: 600;
+					line-height: 24px;
+					margin: 6px auto 4px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-align: center;
+					// text-overflow: ellipsis;
+				}
+				p:nth-child(3) {
+					height: 24px;
+					color: #f67052;
+					font-size: 14px;
+					font-weight: 600;
+					text-align: center;
+					line-height: 24px;
+				}
+				p:nth-child(4) {
+					margin-top: 4px;
+					height: 16px;
+					color: #979797;
+					font-size: 12px;
+					line-height: 16px;
+					text-align: center;
+				}
+			}
+
+			.rebate_merchant_logo_show {
+				background-color: #fff;
+				overflow: hidden;
+				z-index: 2;
+				height: 65px;
+				width: 100%;
+				position: relative;
+				bottom: 0;
+				top: -40px;
+				display: none;
+
+				p {
+					padding: 0 8px;
+					text-align: center;
+					height: 16px;
+					color: #979797;
+					font-size: 12px;
+					line-height: 16px;
+					cursor: pointer;
+				}
+				:nth-child(2) {
+					position: absolute;
+					bottom: 12px;
+					left: 16px;
+					width: 72px;
+					color: #ffffff;
+					font-size: 12px;
+					font-weight: 600;
+					text-align: center;
+					line-height: 30px;
+					background: #f67052;
+					border-radius: 4px;
+				}
+				:nth-child(3) {
+					left: auto;
+					right: 16px;
+					bottom: 12px;
+					position: absolute;
+					width: 72px;
+					color: #ffffff;
+					font-size: 12px;
+					font-weight: 600;
+					text-align: center;
+					line-height: 30px;
+					background: #f67052;
+					border-radius: 4px;
+				}
+      }
+      &:hover{
+        .rebate_merchant_logo_show{
+          display: block;
         }
       }
-    }
-  }
-  .footer{
-    height: 100px;
-    background-color: #ddd;
-    h2{
-      @extend .show;//继承
-    }
-    @import './list';
-  }
+		}
+		li:nth-child(6n) {
+			margin-right: 0px;
+			// margin-left:3px;
+		}
+	}
 }
-
-// 引入外部sass文件
-// @import './list.scss';
-@import './list';
-
-// 混合 @mixin
-@mixin common{
-  list-style: none;
-  li{
-    color: blue;
-    font-size: 20px;
-  }
-}
-@mixin test ($width,$color){// 传参
-  list-style: none;
-  overflow: hidden;
-  li{
-    float: left;
-    width: $width;
-    height: 100px;
-    margin-left: 20px;
-    background-color: $color;
-  }
-}
-.list{
-  // @include common;
-  @include test(200px,blue);
-  @if 5>3 {border: 4px solid #ccc;}
-  @if 5<3 {border: 4px solid red;}
-}
-
-@for $i from 1 through 4 {
-  .li-#{$i} {
-    width: $i*50px;
-  }
-}
-
-
