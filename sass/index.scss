@@ -1,6 +1,7 @@
 .awiper_inset {
 	position: relative;
-	width: 1200px;
+	width: 100%;
+	min-width: 1200px;
 	height: 100%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -11,8 +12,9 @@
 	color: #000;
 }
 .swiper-container {
-	left: -800px;
-	width: 2880px;
+	// left: -800px;
+	width: 100%;
+	min-width: 1200px;
 	height: 424px;
 	margin: 0 auto;
 	.swiper-pagination {
@@ -33,7 +35,7 @@
 		cursor: pointer;
 		z-index: 10000;
 		position: absolute;
-		left: calc(50% - 640px);
+		left: calc(50% - 600px);
 	}
 	.swiper-button-next {
 		top: 50%;
@@ -47,14 +49,14 @@
 		cursor: pointer;
 		z-index: 10000;
 		position: absolute;
-		right: calc(50% - 560px + 296px);
+		right: calc(50% - 600px + 296px);
 	}
 }
 
 .swiper-slide {
 	text-align: center;
 	font-size: 18px;
-	background: #fff;
+	background: url(../image/img1/148ce0d8fa3af9c5bb1d21bf8bb4755e.jpg) center no-repeat;
 
 	/* Center slide text vertically */
 	display: -webkit-box;
@@ -157,13 +159,14 @@
 //------->
 //------->
 //返利商家的部分
-.rebate_merchant_weap{
-  background: #f6f6f6;
-  width: 100%;
+.rebate_merchant_weap {
+	background: #f6f6f6;
+	width: 100%;
 }
 .rebate_merchant {
 	width: 1200px;
-	margin: 18px auto 0px;
+	padding: 18px 0;
+	margin: 0 auto;
 	// background-color: turquoise;
 	.rebate_merchant_list {
 		margin-bottom: 18px;
@@ -225,9 +228,9 @@
 		//  flex-wrap: wrap;
 
 		li {
-      &:hover{
-        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.04);
-      }
+			&:hover {
+				box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.04);
+			}
 			height: 221px;
 			padding-top: 20px;
 			padding-bottom: 24px;
@@ -330,16 +333,518 @@
 					background: #f67052;
 					border-radius: 4px;
 				}
-      }
-      &:hover{
-        .rebate_merchant_logo_show{
-          display: block;
-        }
-      }
+			}
+			&:hover {
+				.rebate_merchant_logo_show {
+					display: block;
+				}
+			}
 		}
 		li:nth-child(6n) {
 			margin-right: 0px;
 			// margin-left:3px;
+		}
+	}
+}
+// <-----------
+// <-----------
+// <-----------
+// <-----------
+//------->
+//------->
+//------->
+//------->
+// 如何获得返利
+.how_to_rebate {
+	width: 1200px;
+	margin: 16px auto;
+	position: relative;
+	align-items: center;
+	.how_to_rebate_font {
+		overflow: hidden;
+		:nth-child(1) {
+			font-size: 20px;
+			font-weight: 600;
+			color: #1f1f1f;
+		}
+		:nth-child(2) {
+			font-size: 14px;
+			color: #979797;
+			cursor: pointer;
+			margin-left: 32px;
+			line-height: 20px;
+			i {
+				color: #979797;
+				font-size: 12px;
+			}
+			&:hover {
+				color: #f67052;
+				i {
+					color: #f67052;
+				}
+			}
+		}
+		:nth-child(3) {
+			cursor: pointer;
+			margin-left: 32px;
+
+			font-size: 14px;
+			position: absolute;
+			right: 0;
+			i {
+				color: #979797;
+				font-size: 12px;
+			}
+		}
+		span {
+			float: left;
+		}
+	}
+	.how_to_rebate_step {
+		margin: 16px 0 40px;
+		justify-content: space-between;
+		display: flex;
+		img {
+			width: 288px;
+			height: 101px;
+			border-radius: 4px;
+			display: block;
+		}
+	}
+	.how_to_rebate_banner {
+		margin: 20px auto;
+		height: 142px;
+		justify-content: space-between;
+		display: flex;
+		img {
+			width: 285px;
+			height: 142px;
+			border-radius: 4px;
+			display: block;
+			margin-right: 20px;
+		}
+	}
+}
+// <-----------
+// <-----------
+// <-----------
+// <-----------
+//------->
+//------->
+//------->
+//------->
+// 海淘转运
+.overseas_transshipment {
+	width: 1200px;
+	margin: 0 auto;
+	.overseas_merchant_list {
+		margin-bottom: 18px;
+		height: 40px;
+		overflow: hidden;
+		span {
+			float: left;
+			font-size: 20px;
+			font-weight: 600;
+			color: #1f1f1f;
+			line-height: 32px;
+		}
+		ul {
+			margin-left: 48px;
+			float: left;
+
+			li {
+				float: left;
+				cursor: pointer;
+				color: #1f1f1f;
+				font-size: 16px;
+				margin-left: 24px;
+				line-height: 32px;
+				height: 32px;
+				display: flex;
+				align-items: center;
+				&:hover {
+					font-weight: 600;
+				}
+			}
+			li:nth-child(1) {
+				margin-left: 0px;
+			}
+		}
+		div {
+			float: left;
+			cursor: pointer;
+			color: #1f1f1f;
+			font-size: 16px;
+			margin-left: 24px;
+			line-height: 32px;
+			height: 32px;
+			display: flex;
+			align-items: center;
+			i {
+				color: #979797;
+				font-size: 12px;
+				margin-left: 6px;
+				margin-top: 3px;
+			}
+			&:hover {
+				color: #f67052;
+			}
+		}
+	}
+	.overseas_merchant_img {
+		width: 1200px;
+		margin: 18px auto 0px;
+		overflow: hidden;
+		& > img {
+			float: left;
+			width: 186px;
+			background-color: #fff;
+			margin-bottom: 16px;
+			margin-right: 16px;
+			border-radius: 4px;
+			border: 1px solid #ececec;
+			box-sizing: border-box;
+			color: #656565;
+		}
+		:nth-child(6n) {
+			margin-right: 0px;
+		}
+		:hover {
+			box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.04);
+		}
+	}
+}
+// <-----------
+// <-----------
+// <-----------
+// <-----------
+//------->
+//------->
+//------->
+//------->
+// 最后的模块
+// <-----------
+// <-----------
+// <-----------
+// <-----------
+.last_model {
+	overflow: hidden;
+	width: 1200px;
+	min-height: 500px;
+	background-color: #fff;
+	margin: 0 auto;
+	//------->
+	//------->
+	//------->
+	//------->
+	// 左边的最新优惠
+	.recent_news {
+		width: 870px;
+		float: left;
+		margin-top: 16px;
+
+		.recent_news_option {
+			overflow: hidden;
+			ul {
+				float: left;
+				margin-bottom: 24px;
+				li {
+					margin-left: 16px;
+					float: left;
+					color: #1f1f1f;
+					font-size: 16px;
+					line-height: 24px;
+					&:hover {
+						color: #f67052;
+					}
+				}
+				:nth-child(1) {
+					color: #1f1f1f;
+					font-weight: 600;
+				
+				}
+			}
+		}
+		//需要数据循环的地方
+		.recent_news_list {
+			overflow: hidden;
+			& > ul {
+				& > li {
+					overflow: hidden;
+					padding-bottom: 24px;
+					& > img {
+						display: block;
+						width: 180px;
+						height: 180px;
+						// background: #ffffff;
+
+						margin-bottom: 24px;
+						margin-right: 16px;
+						float: left;
+					}
+					.recent_news_list_every {
+						float: right;
+						padding-bottom: 24px;
+
+						width: 674px;
+						//第一行的样式
+						.recent_news_list_every_1 {
+							overflow: hidden;
+							margin-bottom: 12px;
+							vertical-align: middle;
+							font-size: 12px;
+							.recent_news_list_every_1_left {
+								margin-right: 8px;
+								display: inline-block;
+								color: #fff;
+								font-size: 14px;
+								font-weight: 600;
+								text-align: center;
+								line-height: 24px;
+								background: #f67052;
+								border-radius: 2px;
+								// position: relative;
+								// top: -2px;
+								padding: 0 8px;
+							}
+							.recent_news_list_every_1_right {
+								display: inline-block;
+								.recent_news_list_every_1_right_1 {
+									font-size: 18px;
+									font-weight: 600;
+									line-height: 28px;
+									// overflow: hidden;
+									// word-break: break-word;
+									color: #1f1f1f;
+									&:hover {
+										color: #f67052;
+									}
+								}
+								.recent_news_list_every_1_right_2 {
+									color: #f67052;
+									font-weight: 600;
+								}
+							}
+						}
+						//第二行的样式
+						.recent_news_list_every_2 {
+							span {
+								display: inline-block;
+								margin-right: 8px;
+
+								padding: 0 8px;
+								height: 20px;
+								line-height: 20px;
+								color: #979797;
+								font-size: 10px;
+								font-weight: 600;
+								border-radius: 2px;
+								background-color: #f8f8f8;
+							}
+						}
+						//第三行样式
+						.recent_news_list_every_3 {
+							color: #1f1f1f;
+							float: left;
+							margin-top: 12px;
+							line-height: 24px;
+							font-size: 14px;
+							min-height: 48px;
+							// overflow: hidden;
+							// word-break: break-word;
+						}
+						.recent_news_list_every_4 {
+							.recent_news_list_every_4-left {
+								display: inline-block;
+								margin-top: 12px;
+								height: 24px;
+								line-height: 24px;
+								color: #979797;
+								font-size: 12px;
+							}
+							.recent_news_list_every_4_center {
+								display: inline-block;
+								margin-left: 8px;
+								padding: 0 7px;
+								height: 24px;
+								text-align: center;
+								line-height: 24px;
+								border: 1px solid #f67052;
+								border-radius: 4px;
+								width: 52px;
+								cursor: pointer;
+								color: #f67052;
+								font-size: 12px;
+								font-weight: bold;
+								min-width: 50px;
+								white-space: nowrap;
+							}
+							.recent_news_list_every_4-right {
+								display: inline-block;
+								color: #f67052;
+								font-size: 12px;
+								height: 27px;
+								line-height: 27px;
+								margin-left: 16px;
+							}
+						}
+						// 第五行
+						.recent_news_list_every_5 {
+							margin-top: 8px;
+							.recent_news_list_every_5_left_1 {
+								display: inline-block;
+								margin-right: 16px;
+								.recent_news_list_every_5_left_1_in {
+									color: #8d8c8c;
+									font-size: 12px;
+									font-weight: normal;
+									letter-spacing: 0;
+									line-height: 32px;
+									&:hover {
+										color: #f67052;
+									}
+								}
+							}
+							.recent_news_list_every_5_left_2 {
+								display: inline-block;
+								.recent_news_list_every_5_left_2_in {
+									color: #8d8c8c;
+									font-size: 12px;
+									font-weight: normal;
+									letter-spacing: 0;
+									line-height: 32px;
+									&:hover {
+										color: #f67052;
+									}
+								}
+							}
+							.recent_news_list_every_5_right {
+								float: right;
+								.recent_news_list_every_5_time {
+									float: left;
+
+									margin-right: 24px;
+									color: #979797;
+									font-size: 12px;
+									line-height: 32px;
+								}
+								.recent_news_list_every_5_country {
+									float: left;
+									color: #656565;
+									height: 32px;
+									line-height: 32px;
+									// width: 16px;
+
+									&:hover {
+										color: #f67052;
+									}
+								}
+								.recent_news_list_every_5_go {
+									float: right;
+
+									margin-left: 16px;
+									width: 130px;
+									background: #f67052;
+									color: #fff;
+									font-size: 14px;
+									font-weight: 600;
+
+									text-align: center;
+									line-height: 32px;
+									border-radius: 4px;
+								}
+							}
+						}
+					}
+				}
+				li:after {
+					content: "";
+					display: block;
+					clear:both;
+					bottom: 0;
+					width: 100%;
+					height: 1px;
+					transform: scaleY(0.5);
+					background-color: #eee;
+				}
+			}
+		}
+	}
+
+	//右边的模块
+	.recent_news_right {
+		padding-top:30px;
+		width: 300px;
+		min-height: 500px;
+		float: right;
+		background: #f6f6f6;
+
+		
+		.recent_news_right_title {
+			overflow: hidden;
+			margin-left: 30px;
+			margin-bottom: 20px;
+			:nth-child(1) {
+				color: #616161;
+				font-size: 18px;
+				vertical-align: middle;
+				float: left;
+			}
+			:nth-child(2) {
+				height: 18px;
+				line-height: 18px;
+				background: #b3b3b3;
+				border-radius: 3px;
+				color: #ffffff;
+				font-size: 12px;
+				padding: 0 3px 0px 5px;
+				position: relative;
+				float: right;
+				top: 1px;
+				margin-right: 34px;
+				margin-top: 4px;
+				&:hover {
+					background: #f67052;
+				}
+			}
+		}
+		.recent_news_right_connect {
+			overflow: hidden;
+			width: 238px;
+			margin-left: 30px;
+			border: 1px solid #f6f6f6;
+			margin-bottom: 20px;
+			img {
+				width: 87px;
+				height: 82px;
+				float: left;
+			}
+			.recent_news_right_connect_right {
+				float: left;
+				width: 138px;
+				margin-left: 12px;
+				margin-top: 3px;
+
+				:nth-child(1) {
+					font-size: 12px;
+					line-height: 22px;
+					height: 44px;
+					overflow: hidden;
+					font-weight: 600;
+					color: #656565;
+					&:hover {
+						color: #f67052;
+					}
+				}
+
+				:nth-child(2) {
+					font-size: 12px;
+					color: #c2c2c2;
+				}
+			}
+			&:hover{
+				border: 1px solid #f67052;
+			}
 		}
 	}
 }
