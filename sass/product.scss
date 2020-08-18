@@ -1,0 +1,420 @@
+.product_start_weap {
+	background-color: #f5f5f5;
+	.product_start {
+		position: relative;
+		width: 1200px;
+		margin: 0 auto 40px;
+		.product_crumbs {
+			height: 60px;
+			width: 1200px;
+			font-size: 14px;
+			line-height: 60px;
+			color: #3c3c3c;
+			cursor: pointer;
+			span {
+				&:hover {
+					color: #f67052;
+				}
+			}
+			:last-child {
+				color: #f67052;
+			}
+			//   background-color: slategray;
+		}
+		.product_connect_weap {
+			overflow: hidden;
+			.product_connect_left {
+				float: left;
+				width: 762px;
+				background-color: #fff;
+				padding: 30px 26px;
+				box-sizing: border-box;
+				border: 1px solid #ececec;
+				border-radius: 4px;
+				min-height: 500px;
+				// background-color: yellowgreen;
+				//    商品的主要展示信息
+				.product_connect_left_up {
+					float: left;
+
+					.product_connect_left_up_img {
+						display: inline-block;
+						height: 240px;
+						width: 240px;
+						// align-items: center;
+						margin: 0 20px 20px 0;
+						img {
+							height: 240px;
+							width: 240px;
+						}
+					}
+					.product_connect_left_up_img_font {
+						width: calc(100% - 280px);
+						float: right;
+						// background-color: teal;
+						position: relative;
+						.product_connect_left_up_img_font_p1 {
+							.product_connect_left_up_img_font_p1_left {
+								font-size: 12px;
+								padding: 3px 10px;
+								border-radius: 3px;
+								margin-right: 5px;
+								display: inline-block;
+								transform: translateY(-2px);
+								color: #fff;
+								background-color: #f67052;
+								font-weight: 700;
+								cursor: default;
+							}
+							.product_connect_left_up_img_font_p1_right1 {
+								font-size: 20px;
+								font-weight: 700;
+								color: #3c3c3c;
+								line-height: 30px;
+								cursor: default;
+							}
+							.product_connect_left_up_img_font_p1_right2 {
+								font-size: 20px;
+								font-weight: 700;
+								cursor: default;
+								color: #f67052;
+								line-height: 30px;
+							}
+						}
+						.product_connect_left_up_img_font_p2 {
+							margin-top: 16px;
+
+							max-width: 180px;
+							display: block;
+							span {
+								display: inline-block;
+								font-size: 12px;
+								color: #979797;
+								background-color: #f8f8f8;
+								margin-right: 10px;
+								padding: 3px 6px;
+								border-radius: 2px;
+							}
+						}
+						.product_connect_left_up_img_font_p3 {
+							margin-top: 16px;
+
+							.product_connect_left_up_img_font_p3_img {
+								float: left;
+								height: 16px;
+								width: 16px;
+								margin-right: 10px;
+							}
+							.product_connect_left_up_img_font_p3_country {
+								float: left;
+								font-size: 12px;
+								color: #666;
+								&:hover {
+									color: #f67052;
+								}
+							}
+							.product_connect_left_up_img_font_p3_person {
+								float: left;
+								font-size: 12px;
+								color: #c8c8c8;
+								margin: 0 8px;
+							}
+
+							.product_connect_left_up_img_font_p3_name {
+								float: left;
+								font-size: 12px;
+								color: #979797;
+								display: flex;
+								align-items: center;
+							}
+							.product_connect_left_up_img_font_p3_time {
+								float: right;
+								font-size: 12px;
+								color: #979797;
+								cursor: default;
+							}
+						}
+
+						.product_connect_left_up_img_font_p4 {
+							// display: inline-block;
+							// height: 40px;
+							float: right;
+							margin-top: 60px;
+							font-size: 14px;
+							color: #fff;
+							background-color: #f67052;
+							padding: 10px 25px;
+							border-radius: 3px;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+			.product_connect_right {
+				float: right;
+				width: 414px;
+				min-height: 500px;
+				//    ----------》
+				//    ----------》
+				//    ----------》
+				//  参数
+				.product_connect_right_up {
+					background-color: #fff;
+					padding: 24px;
+					box-sizing: border-box;
+					border: 1px solid #ececec;
+					border-radius: 4px;
+					min-height: 200px;
+					// background-color: springgreen;
+					//参数的上部分
+					.product_connect_right_up_top {
+						overflow: hidden;
+						.product_connect_right_up_top_img {
+							height: 90px;
+							width: 120px;
+							border-radius: 5px;
+
+							align-items: center;
+							justify-content: center;
+							border: 1px solid #e6e6e6;
+							float: left;
+						}
+						.product_connect_right_up_top_p {
+							height: 90px;
+							display: flex;
+							flex-direction: column;
+							justify-content: space-between;
+							margin-left: 12px;
+							float: left;
+							// max-width: calc(100% - 134px);
+							.product_connect_right_up_top_p1 {
+								.product_connect_right_up_top_p1_font {
+									font-size: 20px;
+									font-weight: 700;
+									align-items: center;
+									max-width: 200px;
+									color: #3c3c3c;
+
+									cursor: pointer;
+								}
+								.product_connect_right_up_top_p1_img {
+									width: 35px;
+									height: 25px;
+									margin-left: 5px;
+								}
+							}
+							.product_connect_right_up_top_p2 {
+								display: block;
+								font-size: 16px;
+								font-weight: 700;
+								color: #f67052;
+							}
+							.product_connect_right_up_top_p3 {
+								display: block;
+								font-size: 12px;
+								color: #979797;
+							}
+						}
+					}
+					//参数的中间部分
+					.product_connect_right_up_center {
+						//第一行
+						.product_connect_right_up_center_totle {
+							display: flex;
+							justify-content: space-between;
+							background-color: #f5f5f5;
+							padding: 0 20px;
+							font-size: 12px;
+							line-height: 3;
+							border-radius: 3px;
+							margin-top: 20px;
+							.product_connect_right_up_center_totle_left {
+								font-size: 12px;
+								line-height: 3;
+							}
+							.product_connect_right_up_center_totle_right {
+								font-size: 12px;
+								line-height: 3;
+							}
+						}
+
+						.product_connect_right_up_bottom_ul {
+							font-size: 14px;
+							color: #3c3c3c;
+							// //第一行
+							// .product_connect_right_up_center_p1 {
+							// 	.product_connect_right_up_center_p1_left {
+							// 	}
+							// 	.product_connect_right_up_center_p1_right {
+							// 	}
+							// }
+							// //第二行
+							// .product_connect_right_up_center_p2 {
+							// 	.product_connect_right_up_center_p2_left {
+							// 	}
+							// 	.product_connect_right_up_center_p2_right {
+							// 	}
+							// }
+							// //第三行
+							// .product_connect_right_up_center_p3 {
+							// 	.product_connect_right_up_center_p3_left {
+							// 	}
+							// 	.product_connect_right_up_center_p3_right {
+							// 	}
+							// }
+							// //第四行
+							// .product_connect_right_up_center_p4 {
+							// 	.product_connect_right_up_center_p4_left {
+							// 	}
+							// 	.product_connect_right_up_center_p4_right {
+							// 	}
+							// }
+							li {
+								display: flex;
+								// flex-direction: row;
+								align-items: center;
+								justify-content: space-between;
+								min-height: 56px;
+								padding: 12px 0;
+								box-sizing: border-box;
+								// position: relative;
+								border-bottom: 1px solid #e6e6e6;
+								:nth-child(1) {
+									width: 72%;
+									margin-left: 20px;
+								}
+								:nth-child(2) {
+									width: 18%;
+									color: #f67052;
+									font-weight: 700;
+								}
+							}
+							& > :last-child {
+								font-size: 14px;
+								padding: 0px;
+								padding: 30px 0px;
+								// padding: 0px;
+								display: block;
+								cursor: pointer;
+								border: none;
+								:nth-child(1) {
+									color: #f67052;
+									font-weight: 700;
+								}
+							}
+						}
+					}
+					//参数的下部分
+					.product_connect_right_up_bottom {
+						display: flex;
+						// flex-direction: row;
+						// flex-wrap: wrap;
+						background-color: #fff;
+						padding: 16px;
+						div {
+							width: calc((100% - 72px) / 4);
+							height: 50px;
+							background-color: #fff;
+							color: #3c3c3c;
+							font-size: 14px;
+							font-weight: 700;
+							border-radius: 3px;
+							display: flex;
+							flex-direction: column;
+							justify-content: space-between;
+							align-items: center;
+
+							cursor: pointer;
+
+							margin-right: 24px;
+							i {
+								font-size: 20px;
+								font-weight: 700;
+								height: 20px;
+								width: 20px;
+							}
+							span {
+								font-size: 14px;
+								font-weight: 700;
+								color: #3c3c3c;
+							}
+						}
+
+						// .product_connect_right_up_bottom_p1 {
+						// 	.product_connect_right_up_bottom_p1_dowm {
+						// 	}
+						// }
+						// .product_connect_right_up_bottom_p2 {
+						// 	.product_connect_right_up_bottom_p2_dowm {
+						// 	}
+						// }
+						// .product_connect_right_up_bottom_p3 {
+						// 	.product_connect_right_up_bottom_p3_dowm {
+						// 	}
+						// }
+					}
+				}
+
+				// 《----------
+				// 《----------
+				// 《----------
+				.product_connect_right_span {
+					display: block;
+					font-size: 16px;
+					font-weight: 700;
+					color: #3c3c3c;
+					margin: 24px 0 12px;
+				}
+				.product_connect_right_connnect {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					padding: 32px 32px 8px;
+					background-color: #fff;
+					box-sizing: border-box;
+					border: 1px solid #ececec;
+					border-radius: 4px;
+					min-height: 200px;
+					// background-color: steelblue;
+					li {
+						width: max-content;
+						height: 52px;
+						background-color: #fff;
+						color: #3c3c3c;
+						text-align: center;
+						cursor: pointer;
+						margin-right: 12px;
+						font-size: 14px;
+						font-weight: 700;
+						i {
+							margin: 0 auto;
+							height: 24px;
+							width: 24px;
+							display: block;
+							padding-bottom: 8px;
+							font-size: 20px;
+						}
+						p {
+							white-space: nowrap;
+						}
+					}
+					& > :nth-child(4n) {
+						margin: 0;
+					}
+					& > :hover {
+						color: #f67052;
+					}
+				}
+				.product_connect_right_down {
+					margin-top: 24px;
+					min-height: 500;
+					min-height: 200px;
+					background-color: thistle;
+				}
+			}
+		}
+		// .product_start_fixed{
+
+		// }
+	}
+}

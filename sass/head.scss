@@ -202,7 +202,6 @@
 								}
 							}
 							// 《-----独立模块的左侧部分样式到此结束
-							
 						}
 
 						// ------》独立出来的右侧模块
@@ -213,8 +212,8 @@
 							top: -1px;
 							left: 207px;
 							background: #ffffff;
-							 padding-left:24px;
-							 padding-top:10px;
+							padding-left: 24px;
+							padding-top: 10px;
 							z-index: 9;
 							display: none;
 							overflow: hidden;
@@ -231,8 +230,8 @@
 								line-height: 24px;
 								color: #1f1f1f;
 								cursor: default;
-								margin-bottom:30px;
-								&:hover{
+								margin-bottom: 30px;
+								&:hover {
 									color: #f67052;
 								}
 							}
@@ -256,11 +255,11 @@
 								font-size: 16px;
 								font-weight: 600;
 								// background-color: saddlebrown;
-								margin-bottom:24px;
+								margin-bottom: 24px;
 								//图片
 								.head_top_nav_down_list_shops_list_ul_li_details_show_img {
 									float: left;
-								
+
 									height: 84px;
 									width: 84px;
 									border-radius: 5px;
@@ -269,35 +268,35 @@
 									background-color: seagreen;
 								}
 								.head_top_nav_down_list_shops_list_ul_li_details_show_3 {
-									float:left;
+									float: left;
 									text-align: left;
 									margin-left: 20px;
-								    width: 145px;
+									width: 145px;
 									height: 24px;
 									color: #1f1f1f;
 									font-size: 14px;
 									font-weight: 600;
-									&:hover{
+									&:hover {
 										color: #f67052;
 									}
 								}
 								.head_top_nav_down_list_shops_list_ul_li_details_show_4 {
-									float:left;
+									float: left;
 									text-align: left;
 									margin-left: 20px;
 									width: 145px;
 									color: #ff4200;
 									font-size: 12px;
-									margin-top:10px;
+									margin-top: 10px;
 									height: 26px;
 									line-height: 26px;
 								}
 								.head_top_nav_down_list_shops_list_ul_li_details_show_5 {
-									float:left;
+									float: left;
 									text-align: left;
 									margin-left: 20px;
 									width: 145px;
-									
+
 									height: 16px;
 									color: #979797;
 									font-size: 12px;
@@ -316,7 +315,7 @@
 					&:hover {
 						.head_top_nav_down_list_shops_list {
 							display: block;
-							
+
 							top: 0px;
 						}
 					}
@@ -460,5 +459,136 @@
 				}
 			}
 		}
+	}
+}
+
+// ----------
+// ----------
+// ----------
+// ----------
+// ----------
+// 登入的页面
+.login_weap {
+
+	.login {
+		//切换按钮
+		height: 482px;
+		margin: 0 auto;
+		width: 350px;
+		background-color: #fff;
+		padding: 20px;
+		border:1px solid #979797;
+		border-radius: 8px;
+		.login_toggle_button {
+			height: 40px;
+			width: 100%;
+			font-size:16px;
+			color: black;
+			border-bottom:1px solid #F5F5F5;
+			display:flex;
+			justify-content: center;
+			.login_toggle_button_login {
+				float: left;
+				width:fit-content;
+				height:40px;
+				line-height:24px;
+				cursor: pointer;
+				color:#f67052;
+				margin-right:80px;
+				border-bottom:2px solid #ff7a00;
+			}
+			.login_toggle_button_sign {
+				float: left;
+				width:fit-content;
+				height:40px;
+				line-height:24px;
+				cursor: pointer;
+			}
+		}
+		//账号
+		.login_number {
+			border-bottom:1px solid #F5F5F5;
+			padding-top:20px;
+			
+			margin-bottom:24px;
+			.login_number_font {
+				font-size: 14px;
+				color: #000;
+			}
+			.login_number_input {
+				height: 40px;
+				font-size: 14px;
+				border:none;
+				background-color: #fff;
+				cursor:text;
+				outline: none;
+			}
+		}
+		//密码
+		.login_password {
+			.login_pssword_font {
+			}
+			.login_pssword_input {
+			}
+		}
+		//登录按钮
+		.login_sure_button {
+			.login_sure_button_submit {
+			}
+			.login_sure_button_face {
+			}
+		}
+		//短信验证和忘记密码
+		.login_other_inf {
+			span {
+			}
+		}
+		//其它账号登录
+		.login_other_method {
+		}
+	}
+}
+// ----------
+// ----------
+// ----------
+// ----------
+// ----------
+// 注册的页面
+.sign_weap {
+	.sign {
+		//切换按钮
+		.sign_toggle_button {
+			.sign_toggle_button_login {
+			}
+			.sign_toggle_button_sign {
+			}
+		}
+		//输入手机号码
+		.sign_number {
+			.sign_number_font {
+			}
+			.sign_number_input {
+			}
+		}
+		//设置密码
+		.sign_password {
+			.sign_pssword_font {
+			}
+			.sign_pssword_input {
+			}
+		}
+		//注册按钮
+		.sign_sure_button {
+			.sign_sure_button_submit {
+			}
+			.sign_sure_button_face {
+			}
+		}
+		//用户协议
+		.sign_other_inf {
+			span {
+			}
+		}
+		
 	}
 }
