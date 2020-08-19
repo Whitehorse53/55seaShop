@@ -1,10 +1,16 @@
 // head的外围
+// body{
+// 	background-color: #000;
+// }
 .head_top_weap {
+	// overflow: hidden;
 	width: 100%;
-	height: 141px;
+	// height: 141px;
+	height: 144px;
 	background-color: #fff;
 	//head的内容部分
 	.head_top_bar {
+
 		width: 1200px;
 		height: 116px;
 		padding-top: 26px;
@@ -12,6 +18,7 @@
 		position: relative;
 		// background-color:red;
 		//head的上部分
+	
 		.head_top_nav_up {
 			position: relative;
 			overflow: hidden;
@@ -96,11 +103,15 @@
 		.head_top_nav_down {
 			padding-top: 20px;
 			//head的下部分列表
+			// width: 1200px;
+			//  height:80px;
 			.head_top_nav_down_list {
+			//   height: 48px;
+			
 				& > li {
 					float: left;
 					padding-bottom: 16px;
-
+					position: relative;
 					line-height: 30px;
 					// margin-left: 48px;
 					width: 100px;
@@ -120,6 +131,11 @@
 					& > ul {
 						padding-top: 4px;
 						display: none;
+						position: absolute;
+						z-index: 100;
+						background-color: #fff;
+						width: 100%;
+						padding-bottom: 8px;
 						li {
 							align-items: center;
 							justify-content: center;
@@ -256,51 +272,70 @@
 								font-weight: 600;
 								// background-color: saddlebrown;
 								margin-bottom: 24px;
+								display: flex;
+								
+									align-items: center;
 								//图片
 								.head_top_nav_down_list_shops_list_ul_li_details_show_img {
 									float: left;
 
-									height: 84px;
+									// height: 84px;
 									width: 84px;
+									line-height: 84px;
 									border-radius: 5px;
-									display: flex;
-									align-items: center;
+									
 									background-color: seagreen;
 								}
-								.head_top_nav_down_list_shops_list_ul_li_details_show_3 {
-									float: left;
-									text-align: left;
-									margin-left: 20px;
+								.head_top_nav_down_list_shops_list_ul_li_details_show_img_weap{
+									height: 84px;
 									width: 145px;
-									height: 24px;
-									color: #1f1f1f;
-									font-size: 14px;
-									font-weight: 600;
-									&:hover {
-										color: #f67052;
+									float: right;
+									// display: inline-block;
+								
+									
+								
+								    
+									.head_top_nav_down_list_shops_list_ul_li_details_show_3 {
+										text-overflow:ellipsis;
+										white-space:nowrap;
+										overflow:hidden;
+										float: left;
+										text-align: left;
+										margin-left: 20px;
+										width: 145px;
+										height: 24px;
+										color: #1f1f1f;
+										font-size: 14px;
+										font-weight: 600;
+										&:hover {
+											color: #f67052;
+										}
 									}
+									.head_top_nav_down_list_shops_list_ul_li_details_show_4 {
+										float: left;
+										text-align: left;
+										margin-left: 20px;
+										width: 145px;
+										color: #ff4200;
+										font-size: 12px;
+										margin-top: 10px;
+										height: 26px;
+										line-height: 26px;
+									}
+									.head_top_nav_down_list_shops_list_ul_li_details_show_5 {
+										float: left;
+										text-align: left;
+										margin-left: 20px;
+										width: 145px;
+	
+										height: 16px;
+										color: #979797;
+										font-size: 12px;
+									}
+									
 								}
-								.head_top_nav_down_list_shops_list_ul_li_details_show_4 {
-									float: left;
-									text-align: left;
-									margin-left: 20px;
-									width: 145px;
-									color: #ff4200;
-									font-size: 12px;
-									margin-top: 10px;
-									height: 26px;
-									line-height: 26px;
-								}
-								.head_top_nav_down_list_shops_list_ul_li_details_show_5 {
-									float: left;
-									text-align: left;
-									margin-left: 20px;
-									width: 145px;
-
-									height: 16px;
-									color: #979797;
-									font-size: 12px;
-								}
+							
+							
 							}
 						}
 						// 《------独立出来的右侧的模块到此结束
@@ -343,13 +378,18 @@
 					text-indent: 1px;
 					// margin-right: -1px;
 					border: 1px solid #eee;
+					border-radius: 5px;
 					color: #f67052;
-
+					margin-bottom: -1px;
 					& > a {
 						color: #f67052;
 					}
 					& > ul {
 						display: block;
+						border: 1px solid #eee;
+						border-radius: 5px;
+						margin-left: -1px;
+						border-top:none;
 					}
 				}
 				//鼠标经过无边框
@@ -377,22 +417,33 @@
 					line-height: 20px;
 					margin-right: 16px;
 					padding: 6px 16px 0 24px;
-					// position: relative;
-					width: 174px;
+					position: relative;
+					// width: 174px;
+					width: 230px;
 					color: #1f1f1f;
 					font-size: 12px;
 					border: 1px solid #fff;
-
+					display: flex;
+					justify-content: space-between;
+					white-space: nowrap;
+					box-sizing: border-box;
+					border-bottom-left-radius: none;
+					border-bottom-right-radius: none;
+					// overflow: hidden;
 					i {
 						font-size: 12px;
 						padding-left: 6px;
 						color: #656565;
 					}
 					ul {
-						// position: absolute;
-						// left: 0;
-						// top: 32px;
-						padding-top: 4px;
+						padding-left: 24px;
+						width: 100%;
+						background-color: #fff;
+						position: absolute;
+						z-index: 100000;
+						left: 0;
+						top: 22px;
+						padding-top: 14px;
 						padding-bottom: 8px;
 						width: 190px;
 						// color: #1f1f1f;
@@ -402,6 +453,10 @@
 						border-top: none;
 						z-index: 100;
 						display: none;
+						box-sizing: border-box;
+						border-top-left-radius: none;
+						border-top-right-radius: none;
+
 						li:hover {
 							color: #f67052;
 						}
@@ -410,8 +465,15 @@
 				.head_top_nav_down_right_time:hover {
 					border: 1px solid #eee;
 					border-radius: 4px;
+					border-bottom: none;
 					ul {
+						margin-left: -1px;
+						width: 230px;
 						display: block;
+						border: 1px solid #eee;
+						border-radius: 4px;
+						border-top: none;
+						z-index: 100000;
 					}
 				}
 				//浏览器 手机 铃铛图标
@@ -469,48 +531,71 @@
 // ----------
 // 登入的页面
 .login_weap {
-
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 1000;
 	.login {
+		.sign_no {
+			font-size: 30px;
+			color: #fff;
+
+			position: absolute;
+			top: -12px;
+			right: -12px;
+			border-radius: 50%;
+			background-color: #000;
+			line-height: 30px;
+		}
+		position: fixed;
+		z-index: 10000;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		//切换按钮
 		height: 482px;
 		margin: 0 auto;
 		width: 350px;
 		background-color: #fff;
 		padding: 20px;
-		border:1px solid #979797;
+		border: 1px solid #979797;
 		border-radius: 8px;
 		.login_toggle_button {
 			height: 40px;
 			width: 100%;
-			font-size:16px;
+			font-size: 16px;
 			color: black;
-			border-bottom:1px solid #F5F5F5;
-			display:flex;
+			border-bottom: 1px solid #f5f5f5;
+			display: flex;
 			justify-content: center;
 			.login_toggle_button_login {
 				float: left;
-				width:fit-content;
-				height:40px;
-				line-height:24px;
+				width: fit-content;
+				height: 40px;
+				line-height: 24px;
 				cursor: pointer;
-				color:#f67052;
-				margin-right:80px;
-				border-bottom:2px solid #ff7a00;
+				color: #f67052;
+				margin-right: 80px;
+				border-bottom: 2px solid #ff7a00;
 			}
 			.login_toggle_button_sign {
 				float: left;
-				width:fit-content;
-				height:40px;
-				line-height:24px;
+				width: fit-content;
+				height: 40px;
+				line-height: 24px;
 				cursor: pointer;
 			}
 		}
 		//账号
 		.login_number {
-			border-bottom:1px solid #F5F5F5;
-			padding-top:20px;
-			
-			margin-bottom:24px;
+			border-bottom: 1px solid #f5f5f5;
+			padding-top: 20px;
+
+			margin-bottom: 24px;
 			.login_number_font {
 				font-size: 14px;
 				color: #000;
@@ -518,33 +603,87 @@
 			.login_number_input {
 				height: 40px;
 				font-size: 14px;
-				border:none;
+				border: none;
 				background-color: #fff;
-				cursor:text;
+				cursor: text;
 				outline: none;
+				&::-webkit-input-placeholder {
+					color: rgb(195, 195, 195);
+				}
 			}
 		}
 		//密码
 		.login_password {
+			border-bottom: 1px solid #f5f5f5;
+			padding-top: 20px;
+
+			margin-bottom: 24px;
 			.login_pssword_font {
+				font-size: 14px;
+				color: #000;
 			}
 			.login_pssword_input {
+				height: 40px;
+				font-size: 14px;
+				border: none;
+				background-color: #fff;
+				cursor: text;
+				outline: none;
+				&::-webkit-input-placeholder {
+					color: rgb(195, 195, 195);
+				}
 			}
 		}
 		//登录按钮
 		.login_sure_button {
-			.login_sure_button_submit {
-			}
-			.login_sure_button_face {
-			}
+			margin-top: 20px;
+			width: 140px;
+			height: 40px;
+			border-radius: 5px;
+			color: #fff;
+
+			background: #d1d2d8;
+			line-height: 40px;
+			font-weight: 100;
+			// letter-spacing: 2px;
+			text-align: center;
+			cursor: pointer;
+
+			user-select: none;
+			width: 100%;
+			font-weight: 500;
 		}
 		//短信验证和忘记密码
 		.login_other_inf {
+			font-size: 14px;
+			color: #f67052;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 10px;
 			span {
+				font-weight: 600;
+				display: block;
+				cursor: pointer;
+				transition: color 0.1s;
 			}
 		}
 		//其它账号登录
 		.login_other_method {
+			display: flex;
+			margin-top: 108px;
+			color: #979797;
+			font-size: 12px;
+			font-weight: 400;
+			justify-content: left;
+			align-items: center;
+			position: relative;
+			bottom: 0;
+			img {
+				width: 40px;
+				height: 40px;
+				cursor: pointer;
+			}
 		}
 	}
 }
@@ -555,40 +694,145 @@
 // ----------
 // 注册的页面
 .sign_weap {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+	z-index: 1000;
 	.sign {
+		.sign_no {
+			font-size: 30px;
+			color: #fff;
+
+			position: absolute;
+			top: -12px;
+			right: -12px;
+			border-radius: 50%;
+			background-color: #000;
+			line-height: 30px;
+		}
+		position: fixed;
+		z-index: 10000;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		//切换按钮
+
+		height: 482px;
+		margin: 0 auto;
+		width: 350px;
+		background-color: #fff;
+		padding: 20px;
+		border: 1px solid #979797;
+		border-radius: 8px;
 		.sign_toggle_button {
-			.sign_toggle_button_login {
+			height: 40px;
+			width: 100%;
+			font-size: 16px;
+			color: black;
+			border-bottom: 1px solid #f5f5f5;
+			display: flex;
+			justify-content: center;
+			.login_toggle_button_login {
+				float: left;
+				width: fit-content;
+				height: 40px;
+				line-height: 24px;
+				cursor: pointer;
+
+				margin-right: 80px;
 			}
-			.sign_toggle_button_sign {
+			.login_toggle_button_sign {
+				border-bottom: 2px solid #ff7a00;
+				color: #f67052;
+				float: left;
+				width: fit-content;
+				height: 40px;
+				line-height: 24px;
+				cursor: pointer;
 			}
 		}
 		//输入手机号码
 		.sign_number {
+			border-bottom: 1px solid #f5f5f5;
+			padding-top: 20px;
+
+			margin-bottom: 24px;
 			.sign_number_font {
+				font-size: 14px;
+				color: #000;
 			}
 			.sign_number_input {
+				height: 40px;
+				font-size: 14px;
+				border: none;
+				background-color: #fff;
+				cursor: text;
+				outline: none;
+				&::-webkit-input-placeholder {
+					color: rgb(195, 195, 195);
+				}
 			}
 		}
 		//设置密码
 		.sign_password {
+			border-bottom: 1px solid #f5f5f5;
+			padding-top: 20px;
+
+			margin-bottom: 24px;
 			.sign_pssword_font {
+				font-size: 14px;
+				color: #000;
 			}
 			.sign_pssword_input {
+				height: 40px;
+				font-size: 14px;
+				border: none;
+				background-color: #fff;
+				cursor: text;
+				outline: none;
+				&::-webkit-input-placeholder {
+					color: rgb(195, 195, 195);
+				}
 			}
 		}
 		//注册按钮
 		.sign_sure_button {
-			.sign_sure_button_submit {
-			}
-			.sign_sure_button_face {
-			}
+			margin-top: 20px;
+			width: 140px;
+			height: 40px;
+			border-radius: 5px;
+			color: #fff;
+
+			background: #d1d2d8;
+			line-height: 40px;
+			font-weight: 100;
+			// letter-spacing: 2px;
+			text-align: center;
+			cursor: pointer;
+
+			user-select: none;
+			width: 100%;
+			font-weight: 500;
 		}
 		//用户协议
 		.sign_other_inf {
+			display: flex;
+			margin-top: 150px;
+			color: #979797;
+			font-size: 12px;
+			font-weight: 400;
+			justify-content: left;
+			align-items: center;
+			position: relative;
+			bottom: 0;
 			span {
+				color: #f67052;
 			}
 		}
-		
 	}
 }

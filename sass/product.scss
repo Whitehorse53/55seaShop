@@ -1,17 +1,21 @@
 .product_start_weap {
+	// margin-top:3px;
 	background-color: #f5f5f5;
 	.product_start {
-		position: relative;
+		position: relative;	
 		width: 1200px;
 		margin: 0 auto 40px;
-		.product_crumbs {
+		.product_crumbs_row {
+		//    margin-left:-500px;		
 			height: 60px;
 			width: 1200px;
 			font-size: 14px;
 			line-height: 60px;
 			color: #3c3c3c;
 			cursor: pointer;
-			span {
+			// text-align: left;
+			&>span {
+				// float: left;
 				&:hover {
 					color: #f67052;
 				}
@@ -410,6 +414,7 @@
 					min-height: 500;
 					min-height: 200px;
 					background-color: thistle;
+					margin-bottom: 60px;
 				}
 			}
 		}

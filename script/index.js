@@ -1,10 +1,14 @@
-   var swiper = new Swiper('.swiper-container', {
+$(function() {
+  $('.head').load('../pages/head.html');
+  $('.foot').load('../pages/indexfoot.html');
+})
+ var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: 3000,
       loop: true,
       setWrapperSize :true,
       autoplay:{
-        delay:7000,
+        delay:3000,
         stopOnLastSlide:true,
       },
       pagination: {
@@ -14,6 +18,6 @@
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      },
-    
+      },   
     });
+  

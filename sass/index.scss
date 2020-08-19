@@ -52,26 +52,48 @@
 		right: calc(50% - 600px + 296px);
 	}
 }
-
-.swiper-slide {
-	text-align: center;
-	font-size: 18px;
-	background: url(../image/img1/148ce0d8fa3af9c5bb1d21bf8bb4755e.jpg) center no-repeat;
-
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
+.swiper-container{
+	.swiper-wrapper{
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		
+	
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	&>:nth-child(5){
+		background: url(../image/img1/e4a88d45c306c0f07da9e41c70f5df0f.jpg) center no-repeat;
+	}
+	&>:nth-child(2){
+		background: url(../image/img1/148ce0d8fa3af9c5bb1d21bf8bb4755e.jpg) center no-repeat;
+	}
+	&>:nth-child(7){
+		background: url(../image/img1/148ce0d8fa3af9c5bb1d21bf8bb4755e.jpg) center no-repeat;
+	}
+	&>:nth-child(3){
+		background: url(../image/img1/76f46271b46e84ef3ddeb3f330dc6890.jpg) center no-repeat;
+	}
+	&>:nth-child(4){
+		background: url(../image/img1/71c1e2f84777d234fd325508902f5207.jpg) center no-repeat;
+	}
+	&>:nth-child(6){
+		background: url(../image/img1/3de163c46adc71efd7257fd8c31d51cb.jpg) center no-repeat;
+	}
 }
+}
+
 .connect_inset {
 	width: 1200px;
 	height: 400px;
@@ -222,7 +244,7 @@
 	.rebate_merchant_logo {
 		width: 1200px;
 		min-height: 473px;
-		background-color: wheat;
+		// background-color: wheat;
 		margin: 0 auto;
 		// display: flex;
 		//  flex-wrap: wrap;
@@ -249,12 +271,16 @@
 				div {
 					height: 96px;
 					width: 96px;
-					background-color: red;
+					background-color:#616161;
 					margin: 0 auto;
 					display: flex;
 					align-items: center;
 					justify-content: center;
 					border-radius: 5px;
+					img{
+						height: 96px;
+						width: 96px;
+					}
 				}
 				p:nth-child(2) {
 					height: 24px;
