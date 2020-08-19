@@ -109,3 +109,73 @@ $('.login_toggle_button_sign').click(function(){
     $('.login_weap').css("display","none")
     $('.sign_weap').css("display","block")
     })
+
+
+
+
+
+
+
+
+
+
+
+// 注册
+
+var login = $('.login_sure_button');
+var add = $('.sign_sure_button');
+
+$('.sign_sure_button').click(function (){
+    var inputLogin = $('.sign_number_input');
+    var inpoutPass = $('.sign_pssword_input');
+    console.log('inputLogin.value: ',inputLogin.value);
+    console.log('inpoutPass: ', inpoutPass);
+   
+        if (!inputLogin.value.value || inpoutPass.value) {   
+            alert('账号或密码不能为空！');
+            return false;
+        }
+        ajax({
+            url: '../code/data/user.php',
+            type: 'post',
+            data: {
+                type: 'add',
+                use2r: user2.value,
+                pass2: pass2.value
+            },
+            dataType: 'json',
+            success: function (data){
+                var json = JSON.parse(data);
+                alert(json.msg);
+            },
+            error: function (status){
+                alert('提交失败');
+            }
+        });
+    })
+    
+    $('.login_sure_button').click(function (){
+var user1 = $('.login_number_input');
+var pass1 = $('.login_pssword_input');
+        if (!user1.value || !pass1.value) {
+            alert('账号或密码不能为空！');
+            return false;
+        }
+        ajax({
+            url: '../code/data/user.php',
+            type: 'post',
+            data: {
+                type: 'login',
+                user1: user1.value,
+                pass1: pass1.value
+            },
+            dataType: 'json',
+            success: function (data){
+                var json = JSON.parse(data);
+                alert(json.msg);
+            },
+            error: function (status){
+                alert('提交失败');
+            }
+        });
+    })

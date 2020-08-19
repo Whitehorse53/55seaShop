@@ -8,7 +8,8 @@ $(function() {
     dataType: 'json',
     success: function(data){     
      data.forEach((item,index)=>{
-                      
+   
+      console.log('item.id: ', item.id);
                     $('.gba_markeup_connect').append(`
                     <a class="gba_markeup_connect_a" href="../pages/product.html?id=${item.id}">
                     <div class="gba_markeup_connect_every">
