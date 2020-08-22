@@ -202,10 +202,10 @@
 			color: #1f1f1f;
 			line-height: 32px;
 		}
-		ul {
+	.rebate_merchant_img{
 			margin-left: 48px;
 			float: left;
-
+            position: relative;
 			li {
 				float: left;
 				cursor: pointer;
@@ -219,11 +219,26 @@
 				&:hover {
 					font-weight: 600;
 				}
-			}
+			
+		    
 			li:nth-child(1) {
 				margin-left: 0px;
 			}
 		}
+			// 那个动效a
+		.rebate_merchant_img_p{
+			display: block;
+			height: 4px;
+			background-color: #f67052;
+			position: absolute;
+			top: 32px;
+			border-radius: 2px;
+			width: 64px;
+			left:24px;
+			color: red;
+			
+		}
+	}
 		div {
 			float: left;
 			cursor: pointer;
@@ -479,7 +494,7 @@
 		ul {
 			margin-left: 48px;
 			float: left;
-
+           position: relative;
 			li {
 				float: left;
 				cursor: pointer;
@@ -496,6 +511,17 @@
 			}
 			li:nth-child(1) {
 				margin-left: 0px;
+			}
+			.overseas_merchant_ul_p{
+			display: block;
+			height: 4px;
+			background-color: #f67052;
+			position: absolute;
+			top: 32px;
+			border-radius: 2px;
+			width: 64px;
+			left:0px;
+			color: red;
 			}
 		}
 		div {

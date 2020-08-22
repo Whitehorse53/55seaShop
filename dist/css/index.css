@@ -170,10 +170,11 @@
       font-weight: 600;
       color: #1f1f1f;
       line-height: 32px; }
-    .rebate_merchant .rebate_merchant_list ul {
+    .rebate_merchant .rebate_merchant_list .rebate_merchant_img {
       margin-left: 48px;
-      float: left; }
-      .rebate_merchant .rebate_merchant_list ul li {
+      float: left;
+      position: relative; }
+      .rebate_merchant .rebate_merchant_list .rebate_merchant_img li {
         float: left;
         cursor: pointer;
         color: #1f1f1f;
@@ -183,10 +184,20 @@
         height: 32px;
         display: flex;
         align-items: center; }
-        .rebate_merchant .rebate_merchant_list ul li:hover {
+        .rebate_merchant .rebate_merchant_list .rebate_merchant_img li:hover {
           font-weight: 600; }
-      .rebate_merchant .rebate_merchant_list ul li:nth-child(1) {
-        margin-left: 0px; }
+        .rebate_merchant .rebate_merchant_list .rebate_merchant_img li li:nth-child(1) {
+          margin-left: 0px; }
+      .rebate_merchant .rebate_merchant_list .rebate_merchant_img .rebate_merchant_img_p {
+        display: block;
+        height: 4px;
+        background-color: #f67052;
+        position: absolute;
+        top: 32px;
+        border-radius: 2px;
+        width: 64px;
+        left: 24px;
+        color: red; }
     .rebate_merchant .rebate_merchant_list div {
       float: left;
       cursor: pointer;
@@ -376,7 +387,8 @@
       line-height: 32px; }
     .overseas_transshipment .overseas_merchant_list ul {
       margin-left: 48px;
-      float: left; }
+      float: left;
+      position: relative; }
       .overseas_transshipment .overseas_merchant_list ul li {
         float: left;
         cursor: pointer;
@@ -391,6 +403,16 @@
           font-weight: 600; }
       .overseas_transshipment .overseas_merchant_list ul li:nth-child(1) {
         margin-left: 0px; }
+      .overseas_transshipment .overseas_merchant_list ul .overseas_merchant_ul_p {
+        display: block;
+        height: 4px;
+        background-color: #f67052;
+        position: absolute;
+        top: 32px;
+        border-radius: 2px;
+        width: 64px;
+        left: 0px;
+        color: red; }
     .overseas_transshipment .overseas_merchant_list div {
       float: left;
       cursor: pointer;

@@ -79,3 +79,34 @@ $(function() {
                           
       }
   })
+  //划过的动效
+  $('.rebate_merchant_img li').mouseover(function(e){
+        // if(e.target.parentNode===$('.rebate_merchant_img').get(0)){
+          var pLeft=e.target.offsetLeft
+          console.log('pLeft: ', pLeft);
+          // $('.rebate_merchant_img_p').css("left",pLeft)   
+          // $('.rebate_merchant_img_p').css("width", e.target.clientWidth)
+          console.log('e.target.clientWidth: ', e.target.clientWidth);
+          $('.rebate_merchant_img_p').stop()
+          $('.rebate_merchant_img_p').animate({
+             "left":pLeft,
+             "width":e.target.clientWidth
+          },300)
+      
+        // } 
+
+  })
+   //划过的动效
+   $('.overseas_merchant_ul li').mouseover(function(e){
+   
+      var pLeft=e.target.offsetLeft
+      console.log('pLeft: ', pLeft);
+      $('.overseas_merchant_ul_p').stop()
+      $('.overseas_merchant_ul_p').animate({
+         "left":pLeft,
+         "width":e.target.clientWidth
+      },300)
+  
+   
+
+})
