@@ -26,7 +26,12 @@ task('sass', async ()=>{
   .pipe(load.rev.manifest())
   .pipe(dest('./rev/css'))
 })
-
+// 处理php
+task('php1', async ()=>{
+  src('./php/*.php')
+  .pipe(dest('./dist/php'))
+  .pipe(load.connect.reload())
+})
 
 // 处理json
 task('json', async ()=>{
@@ -72,4 +77,4 @@ task('connect',async ()=>{
 })
 
 // 构建生产包
-task('build',series('delDist','image','sass','script','json','html','connect'))
+task('build',series('delDist','image','sass','php1','script','json','html','connect'))

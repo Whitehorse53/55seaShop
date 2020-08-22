@@ -24,7 +24,12 @@ task('sass', async ()=>{
   .pipe(dest('./dist/css'))
   .pipe(load.connect.reload())
 })
-
+// 处理php
+task('php1', async ()=>{
+  src('./php/*.php')
+  .pipe(dest('./dist/php'))
+  .pipe(load.connect.reload())
+})
 
 // 处理js
 task('script', async ()=>{
@@ -50,7 +55,7 @@ task('html', async ()=>{
 task('watch',async ()=>{
   watch('./image/*.*',series('image'));
   watch('./sass/*.scss',series('sass'));
- 
+  watch('./php/*.php',series('php1'));
   watch('./script/*.js',series('script'));
   watch('./data/*.json',series('json'));
   watch('./pages/*.html',series('html'));
@@ -66,4 +71,4 @@ task('connect',async ()=>{
 })
 
 // 构建开发包
-task('dev',series('delDist','image','sass','script','json','html','connect','watch'))
+task('dev',series('delDist','image','sass','php1','script','json','html','connect','watch'))

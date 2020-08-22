@@ -50,7 +50,13 @@ console.log('id: ', id);
         </div>
         <div class="product_connect_left_up_img_font_p4">去购买，拿返利</div>
       </div>
-      </div>
+     
+    </div>
+    <div class="product_connect_left_down">
+    <p>
+    ${item.introduction}
+    </p>
+    </div>
    ` )
 $('.product_connect_right_up_top').append(`
 <div class="product_connect_right_up_add">
