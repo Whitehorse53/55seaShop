@@ -1,0 +1,90 @@
+.foot_weap {
+  height: 365px;
+  width: 100%; }
+  .foot_weap .foot_connect {
+    height: 128px;
+    margin: 0 auto;
+    width: 920px;
+    padding: 64px 0 32px;
+    display: flex;
+    justify-content: space-between; }
+    .foot_weap .foot_connect .foot_connect_list {
+      float: left; }
+      .foot_weap .foot_connect .foot_connect_list .foot_connect_list_h3 {
+        color: #3c3c3c;
+        font-weight: 600;
+        margin-bottom: 16px;
+        line-height: 16px;
+        font-size: 12px; }
+      .foot_weap .foot_connect .foot_connect_list .foot_connect_list_ul li {
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 8px; }
+        .foot_weap .foot_connect .foot_connect_list .foot_connect_list_ul li:hover {
+          color: #f67052; }
+    .foot_weap .foot_connect .foot_connect_list_last > img {
+      width: 24px;
+      height: 24px; }
+    .foot_weap .foot_connect .foot_connect_list_last > div {
+      display: inline;
+      position: relative; }
+      .foot_weap .foot_connect .foot_connect_list_last > div > img {
+        width: 24px;
+        height: 24px; }
+      .foot_weap .foot_connect .foot_connect_list_last > div:hover .foot_connect_list_show {
+        display: block; }
+    .foot_weap .foot_connect .foot_connect_list_last .foot_connect_list_show {
+      display: none;
+      position: absolute;
+      top: 25px;
+      left: 40%;
+      padding: 8px 16px 8px 8px;
+      width: 168px;
+      background-color: #fff;
+      box-shadow: 0 0 16px rgba(60, 60, 60, 0.2);
+      border-radius: 2px;
+      transform: translateX(-50%); }
+      .foot_weap .foot_connect .foot_connect_list_last .foot_connect_list_show > img {
+        float: left;
+        width: 64px;
+        height: 64px;
+        margin-right: 8px; }
+      .foot_weap .foot_connect .foot_connect_list_last .foot_connect_list_show > div {
+        float: left; }
+        .foot_weap .foot_connect .foot_connect_list_last .foot_connect_list_show > div img {
+          height: 16px; }
+        .foot_weap .foot_connect .foot_connect_list_last .foot_connect_list_show > div p {
+          margin-top: 4px;
+          color: #979797;
+          font-size: 12px;
+          line-height: 1.5; }
+    .foot_weap .foot_connect .foot_connect_list_last .foot_connect_list_show::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      margin-left: -6px;
+      width: 0;
+      height: 0;
+      border-bottom: 8px solid #fff;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent; }
+  .foot_weap .foot_width {
+    width: 1200px;
+    height: 1px;
+    background: #eaeaea;
+    margin: 0 auto; }
+  .foot_weap .foot_last {
+    padding: 32px 0 64px;
+    width: 920px;
+    margin: 0 auto; }
+    .foot_weap .foot_last p {
+      text-align: center; }
+      .foot_weap .foot_last p a {
+        color: #979797;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px; }

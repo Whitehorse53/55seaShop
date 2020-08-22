@@ -1,0 +1,184 @@
+.gba_weap {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 60px;
+  padding-bottom: 5px; }
+  .gba_weap .gba {
+    width: 870px;
+    float: left; }
+    .gba_weap .gba .gba_crumbs {
+      font-size: 14px;
+      color: #949494;
+      margin-top: 30px;
+      border-bottom: 1px dashed #a7a7a7;
+      padding-bottom: 10px; }
+    .gba_weap .gba .gba_banner {
+      display: inline-block;
+      margin: 30px 0;
+      width: 870px;
+      height: 296px;
+      background-color: skyblue; }
+    .gba_weap .gba .gba_sea_play h3 {
+      font-size: 20px;
+      color: #202020;
+      font-weight: 600; }
+    .gba_weap .gba .gba_sea_play div {
+      font-size: 14px;
+      color: #4F4F53;
+      margin-top: 24px;
+      line-height: 24px; }
+      .gba_weap .gba .gba_sea_play div p {
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 24px; }
+    .gba_weap .gba .gba_width {
+      border-bottom: 1px dashed #a7a7a7;
+      margin: 30px 0;
+      color: #656565; }
+    .gba_weap .gba .gba_markeup .gba_markeup_title {
+      margin: 30px 0 16px 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #202020; }
+    .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_a {
+      display: block;
+      margin: 0 0 -1px -1px; }
+    .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every {
+      float: left;
+      border: 1px solid #E9E9E9;
+      position: relative;
+      z-index: 0;
+      padding: 16px;
+      width: 256px;
+      height: 413px;
+      color: #656565; }
+      .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every .gba_markeup_connect_every_img {
+        width: 257px;
+        height: 257px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every .gba_markeup_connect_every_coutry {
+        margin-top: 16px;
+        height: 24px;
+        line-height: 24px;
+        display: flex;
+        justify-content: left;
+        align-items: center; }
+        .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every .gba_markeup_connect_every_coutry .gba_markeup_connect_every_coutry_img {
+          width: 18px;
+          height: 18px;
+          margin-right: 8px; }
+        .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every .gba_markeup_connect_every_coutry .gba_markeup_connect_every_coutry_name {
+          line-height: 24px;
+          color: #656565;
+          cursor: pointer; }
+      .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every .gba_markeup_connect_every_p1 {
+        margin-top: 8px;
+        color: #202020;
+        font-size: 16px;
+        height: 42px;
+        line-height: 20px;
+        font-weight: 600;
+        cursor: pointer; }
+        .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every .gba_markeup_connect_every_p1:hover {
+          color: #f67052; }
+      .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every .gba_markeup_connect_every_p2 {
+        color: #F74306;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 8px;
+        height: 21px;
+        cursor: pointer; }
+      .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every .gba_markeup_connect_every_p3 {
+        height: 24px;
+        line-height: 24px;
+        color: #2E89CE;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 8px;
+        background: #BBE8FF;
+        display: inline-block;
+        border-radius: 4px;
+        padding: 2px 5px;
+        cursor: pointer; }
+      .gba_weap .gba .gba_markeup .gba_markeup_connect .gba_markeup_connect_every:hover {
+        border: 1px solid #ff4200;
+        z-index: 1; }
+    .gba_weap .gba .gba_markeup .gba_markeup_connect > :first-child {
+      margin-left: 0px; }
+    .gba_weap .gba .gba_markeup .gba_markeup_connect > :nth-child(3n+1) {
+      margin-left: 0px; }
+  .gba_weap .gba_right {
+    width: 300px;
+    background: #f5f5f5;
+    float: right;
+    margin-bottom: 70px; }
+    .gba_weap .gba_right .gba_right_up {
+      margin-top: 30px; }
+      .gba_weap .gba_right .gba_right_up h3 {
+        margin-bottom: 20px;
+        margin-left: 30px; }
+      .gba_weap .gba_right .gba_right_up img {
+        margin-left: 30px;
+        width: 220px;
+        height: 134px;
+        position: relative;
+        margin-bottom: 30px;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 1px solid #f5f5f5; }
+    .gba_weap .gba_right .gba_right_down .recent_news_right_title {
+      overflow: hidden;
+      margin-left: 30px;
+      margin-bottom: 20px; }
+      .gba_weap .gba_right .gba_right_down .recent_news_right_title :nth-child(1) {
+        color: #616161;
+        font-size: 18px;
+        vertical-align: middle;
+        float: left; }
+      .gba_weap .gba_right .gba_right_down .recent_news_right_title :nth-child(2) {
+        height: 18px;
+        line-height: 18px;
+        background: #b3b3b3;
+        border-radius: 3px;
+        color: #ffffff;
+        font-size: 12px;
+        padding: 0 3px 0px 5px;
+        position: relative;
+        float: right;
+        top: 1px;
+        margin-right: 34px;
+        margin-top: 4px; }
+        .gba_weap .gba_right .gba_right_down .recent_news_right_title :nth-child(2):hover {
+          background: #f67052; }
+    .gba_weap .gba_right .gba_right_down .recent_news_right_connect {
+      overflow: hidden;
+      width: 238px;
+      margin-left: 30px;
+      border: 1px solid #f6f6f6;
+      margin-bottom: 20px; }
+      .gba_weap .gba_right .gba_right_down .recent_news_right_connect img {
+        width: 87px;
+        height: 82px;
+        float: left; }
+      .gba_weap .gba_right .gba_right_down .recent_news_right_connect .recent_news_right_connect_right {
+        float: left;
+        width: 138px;
+        margin-left: 12px;
+        margin-top: 3px; }
+        .gba_weap .gba_right .gba_right_down .recent_news_right_connect .recent_news_right_connect_right :nth-child(1) {
+          font-size: 12px;
+          line-height: 22px;
+          height: 44px;
+          overflow: hidden;
+          font-weight: 600;
+          color: #656565; }
+          .gba_weap .gba_right .gba_right_down .recent_news_right_connect .recent_news_right_connect_right :nth-child(1):hover {
+            color: #f67052; }
+        .gba_weap .gba_right .gba_right_down .recent_news_right_connect .recent_news_right_connect_right :nth-child(2) {
+          font-size: 12px;
+          color: #c2c2c2; }
+      .gba_weap .gba_right .gba_right_down .recent_news_right_connect:hover {
+        border: 1px solid #f67052; }

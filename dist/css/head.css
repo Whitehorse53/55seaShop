@@ -1,0 +1,598 @@
+.head_top_weap {
+  width: 100%;
+  height: 144px;
+  background-color: #fff; }
+  .head_top_weap .head_top_bar {
+    width: 1200px;
+    height: 116px;
+    padding-top: 26px;
+    margin: 0 auto;
+    position: relative; }
+    .head_top_weap .head_top_bar .head_top_nav_up {
+      position: relative;
+      overflow: hidden; }
+      .head_top_weap .head_top_bar .head_top_nav_up .head_top_up_logo img {
+        width: 120px;
+        height: 50px;
+        float: left; }
+      .head_top_weap .head_top_bar .head_top_nav_up .head_top_up_search {
+        width: 596px;
+        height: 36px;
+        border: 2px solid #f67052;
+        color: #1d1d1f;
+        border-radius: 4px;
+        background: #ffffff;
+        align-items: center;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -298px; }
+        .head_top_weap .head_top_bar .head_top_nav_up .head_top_up_search .head_top_up_search_first {
+          width: 468px;
+          height: 34px;
+          padding-left: 16px;
+          border: none;
+          background: none;
+          color: #1d1d1f;
+          font-size: 14px;
+          line-height: 36px;
+          outline: none; }
+        .head_top_weap .head_top_bar .head_top_nav_up .head_top_up_search .head_top_up_search_last {
+          width: 76px;
+          height: 36px;
+          float: right;
+          border: 0px solid #fff;
+          padding-left: 2px;
+          height: 36px;
+          border: none;
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 600;
+          text-align: center;
+          line-height: 36px;
+          cursor: pointer;
+          outline: none;
+          background-color: #f67052; }
+      .head_top_weap .head_top_bar .head_top_nav_up .head_top_up_invite {
+        float: right;
+        width: 134px;
+        height: 50px;
+        cursor: pointer; }
+        .head_top_weap .head_top_bar .head_top_nav_up .head_top_up_invite img {
+          float: left;
+          width: 38px;
+          height: 48px;
+          margin-right: 12px; }
+        .head_top_weap .head_top_bar .head_top_nav_up .head_top_up_invite h3 {
+          color: #f67052;
+          font-size: 16px;
+          font-weight: 600; }
+        .head_top_weap .head_top_bar .head_top_nav_up .head_top_up_invite p {
+          color: #1f1f1f;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 16px;
+          margin-top: 1px; }
+    .head_top_weap .head_top_bar .head_top_nav_down {
+      padding-top: 20px; }
+      .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li {
+        float: left;
+        padding-bottom: 16px;
+        position: relative;
+        line-height: 30px;
+        width: 100px;
+        text-align: center;
+        border: 1px solid #fff;
+        border-radius: 5px; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li a {
+          font-size: 16px;
+          font-weight: 600;
+          color: #1f1f1f;
+          cursor: pointer; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li i {
+          margin-left: 4px; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li > ul {
+          padding-top: 4px;
+          display: none;
+          position: absolute;
+          z-index: 100;
+          background-color: #fff;
+          width: 100%;
+          padding-bottom: 8px; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li > ul li {
+            align-items: center;
+            justify-content: center;
+            color: #1f1f1f;
+            width: 100%;
+            height: 36px; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li > ul a {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 36px; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li > ul a:hover {
+            color: #f67052; }
+      .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops {
+        position: relative; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list {
+          width: 208px;
+          background: #ffff;
+          height: 641px;
+          position: absolute;
+          /* bottom: -549px; */
+          line-height: 2.25;
+          left: -2px;
+          z-index: 20;
+          border: 1px solid #eee;
+          border-right: none;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          padding: 8px 0;
+          box-sizing: border-box;
+          display: none;
+          justify-content: space-between; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_in {
+            text-align: left;
+            margin-left: 24px;
+            margin-bottom: 16px;
+            line-height: 28px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            align-items: center;
+            position: relative; }
+            .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_in a {
+              color: #f67052; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul {
+            justify-content: space-between; }
+            .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul li {
+              font-size: 14px;
+              height: 49px;
+              padding-left: 18px;
+              padding-bottom: 2px;
+              text-align: left;
+              align-items: center;
+              font-weight: 600;
+              color: #656565; }
+              .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul li i {
+                margin-right: 26px; }
+              .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul li:hover {
+                color: #f67052; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details {
+            width: 585px;
+            height: 629px;
+            position: absolute;
+            top: -1px;
+            left: 207px;
+            background: #ffffff;
+            padding-left: 24px;
+            padding-top: 10px;
+            z-index: 9;
+            display: none;
+            overflow: hidden;
+            border: 1px solid #eee;
+            cursor: default;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px; }
+            .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_1 {
+              text-align: left;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 24px;
+              color: #1f1f1f;
+              cursor: default;
+              margin-bottom: 30px; }
+              .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_1:hover {
+                color: #f67052; }
+            .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_2 {
+              text-align: left;
+              font-size: 12px;
+              font-weight: 600;
+              line-height: 16px;
+              color: #979797;
+              cursor: default;
+              margin-bottom: 12px; }
+            .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_card {
+              float: left;
+              height: 86px;
+              width: 50%;
+              margin-bottom: 24px;
+              color: #656565;
+              font-size: 16px;
+              font-weight: 600;
+              margin-bottom: 24px;
+              display: flex;
+              align-items: center; }
+              .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_card .head_top_nav_down_list_shops_list_ul_li_details_show_img {
+                float: left;
+                width: 84px;
+                line-height: 84px;
+                border-radius: 5px;
+                background-color: seagreen; }
+              .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_card .head_top_nav_down_list_shops_list_ul_li_details_show_img_weap {
+                height: 84px;
+                width: 145px;
+                float: right; }
+                .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_card .head_top_nav_down_list_shops_list_ul_li_details_show_img_weap .head_top_nav_down_list_shops_list_ul_li_details_show_3 {
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  float: left;
+                  text-align: left;
+                  margin-left: 20px;
+                  width: 145px;
+                  height: 24px;
+                  color: #1f1f1f;
+                  font-size: 14px;
+                  font-weight: 600; }
+                  .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_card .head_top_nav_down_list_shops_list_ul_li_details_show_img_weap .head_top_nav_down_list_shops_list_ul_li_details_show_3:hover {
+                    color: #f67052; }
+                .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_card .head_top_nav_down_list_shops_list_ul_li_details_show_img_weap .head_top_nav_down_list_shops_list_ul_li_details_show_4 {
+                  float: left;
+                  text-align: left;
+                  margin-left: 20px;
+                  width: 145px;
+                  color: #ff4200;
+                  font-size: 12px;
+                  margin-top: 10px;
+                  height: 26px;
+                  line-height: 26px; }
+                .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list .head_top_nav_down_list_shops_list_ul_li_details .head_top_nav_down_list_shops_list_ul_li_details_show_card .head_top_nav_down_list_shops_list_ul_li_details_show_img_weap .head_top_nav_down_list_shops_list_ul_li_details_show_5 {
+                  float: left;
+                  text-align: left;
+                  margin-left: 20px;
+                  width: 145px;
+                  height: 16px;
+                  color: #979797;
+                  font-size: 12px; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops .head_top_nav_down_list_shops_list:hover .head_top_nav_down_list_shops_list_ul_li_details {
+            display: block; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_shops:hover .head_top_nav_down_list_shops_list {
+          display: block;
+          top: 0px; }
+      .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_first {
+        margin-left: -35px; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_first a {
+          color: #f67052; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_first:hover {
+          border: 1px solid #fff;
+          padding-top: 6px;
+          text-indent: 0px; }
+      .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li:hover {
+        margin-top: -6px;
+        padding-top: 7px;
+        text-indent: 1px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        color: #f67052;
+        margin-bottom: -1px; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li:hover > a {
+          color: #f67052; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list > li:hover > ul {
+          display: block;
+          border: 1px solid #eee;
+          border-radius: 5px;
+          margin-left: -1px;
+          border-top: none; }
+      .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_list .head_top_nav_down_list_noBorder:hover {
+        border: 1px solid #fff;
+        padding-top: 6px;
+        text-indent: 0px; }
+      .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right {
+        margin-top: 4px;
+        float: right; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right div {
+          float: left;
+          cursor: pointer; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_time {
+          margin-top: -6px;
+          line-height: 20px;
+          margin-right: 16px;
+          padding: 6px 16px 0 24px;
+          position: relative;
+          width: 210px;
+          color: #1f1f1f;
+          font-size: 12px;
+          border: 1px solid #fff;
+          display: flex;
+          white-space: nowrap;
+          box-sizing: border-box;
+          border-bottom-left-radius: none;
+          border-bottom-right-radius: none; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_time i {
+            font-size: 12px;
+            padding-left: 6px;
+            color: #656565; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_time ul {
+            padding-left: 24px;
+            width: 210px;
+            background-color: #fff;
+            position: absolute;
+            z-index: 100000;
+            left: 0;
+            top: 22px;
+            padding-top: 10px;
+            padding-bottom: 8px;
+            line-height: 28px;
+            border-radius: 4px;
+            border-top: none;
+            z-index: 100;
+            display: none;
+            box-sizing: border-box;
+            border-top-left-radius: none;
+            border-top-right-radius: none; }
+            .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_time ul li:hover {
+              color: #f67052; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_time:hover {
+          border: 1px solid #eee;
+          border-radius: 4px;
+          border-bottom: none; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_time:hover ul {
+            margin-left: -1px;
+            display: block;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            border-top: none;
+            z-index: 100000; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_mark .icon-liulanqi {
+          width: 24px;
+          height: 24px;
+          margin-right: 16px; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_mark .icon-shouji {
+          width: 24px;
+          height: 24px;
+          margin-right: 16px; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_mark .icon-lingdang {
+          width: 24px;
+          height: 24px;
+          margin-right: 30px; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_mark i:hover {
+          color: #f67052; }
+        .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_inf {
+          font-size: 14px;
+          height: 20px;
+          line-height: 20px;
+          color: #1f1f1f; }
+          .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_inf div {
+            margin-right: 16px; }
+            .head_top_weap .head_top_bar .head_top_nav_down .head_top_nav_down_right .head_top_nav_down_right_inf div:hover {
+              color: #f67052; }
+
+.login_weap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 1000; }
+  .login_weap .login {
+    position: fixed;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 482px;
+    margin: 0 auto;
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #979797;
+    border-radius: 8px; }
+    .login_weap .login .sign_no {
+      font-size: 30px;
+      color: #fff;
+      position: absolute;
+      top: -12px;
+      right: -12px;
+      border-radius: 50%;
+      background-color: #000;
+      line-height: 30px; }
+    .login_weap .login .login_toggle_button {
+      height: 40px;
+      width: 100%;
+      font-size: 16px;
+      color: black;
+      border-bottom: 1px solid #f5f5f5;
+      display: flex;
+      justify-content: center; }
+      .login_weap .login .login_toggle_button .login_toggle_button_login {
+        float: left;
+        width: fit-content;
+        height: 40px;
+        line-height: 24px;
+        cursor: pointer;
+        color: #f67052;
+        margin-right: 80px;
+        border-bottom: 2px solid #ff7a00; }
+      .login_weap .login .login_toggle_button .login_toggle_button_sign {
+        float: left;
+        width: fit-content;
+        height: 40px;
+        line-height: 24px;
+        cursor: pointer; }
+    .login_weap .login .login_number {
+      border-bottom: 1px solid #f5f5f5;
+      padding-top: 20px;
+      margin-bottom: 24px; }
+      .login_weap .login .login_number .login_number_font {
+        font-size: 14px;
+        color: #000; }
+      .login_weap .login .login_number .login_number_input {
+        height: 40px;
+        font-size: 14px;
+        border: none;
+        background-color: #fff;
+        cursor: text;
+        outline: none; }
+        .login_weap .login .login_number .login_number_input::-webkit-input-placeholder {
+          color: #c3c3c3; }
+    .login_weap .login .login_password {
+      border-bottom: 1px solid #f5f5f5;
+      padding-top: 20px;
+      margin-bottom: 24px; }
+      .login_weap .login .login_password .login_pssword_font {
+        font-size: 14px;
+        color: #000; }
+      .login_weap .login .login_password .login_pssword_input {
+        height: 40px;
+        font-size: 14px;
+        border: none;
+        background-color: #fff;
+        cursor: text;
+        outline: none; }
+        .login_weap .login .login_password .login_pssword_input::-webkit-input-placeholder {
+          color: #c3c3c3; }
+    .login_weap .login .login_sure_button {
+      margin-top: 20px;
+      width: 140px;
+      height: 40px;
+      border-radius: 5px;
+      color: #fff;
+      background: #d1d2d8;
+      line-height: 40px;
+      font-weight: 100;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      width: 100%;
+      font-weight: 500; }
+    .login_weap .login .login_other_inf {
+      font-size: 14px;
+      color: #f67052;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px; }
+      .login_weap .login .login_other_inf span {
+        font-weight: 600;
+        display: block;
+        cursor: pointer;
+        transition: color 0.1s; }
+    .login_weap .login .login_other_method {
+      display: flex;
+      margin-top: 108px;
+      color: #979797;
+      font-size: 12px;
+      font-weight: 400;
+      justify-content: left;
+      align-items: center;
+      position: relative;
+      bottom: 0; }
+      .login_weap .login .login_other_method img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer; }
+
+.sign_weap {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000; }
+  .sign_weap .sign {
+    position: fixed;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 482px;
+    margin: 0 auto;
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #979797;
+    border-radius: 8px; }
+    .sign_weap .sign .sign_no {
+      font-size: 30px;
+      color: #fff;
+      position: absolute;
+      top: -12px;
+      right: -12px;
+      border-radius: 50%;
+      background-color: #000;
+      line-height: 30px; }
+    .sign_weap .sign .sign_toggle_button {
+      height: 40px;
+      width: 100%;
+      font-size: 16px;
+      color: black;
+      border-bottom: 1px solid #f5f5f5;
+      display: flex;
+      justify-content: center; }
+      .sign_weap .sign .sign_toggle_button .login_toggle_button_login {
+        float: left;
+        width: fit-content;
+        height: 40px;
+        line-height: 24px;
+        cursor: pointer;
+        margin-right: 80px; }
+      .sign_weap .sign .sign_toggle_button .login_toggle_button_sign {
+        border-bottom: 2px solid #ff7a00;
+        color: #f67052;
+        float: left;
+        width: fit-content;
+        height: 40px;
+        line-height: 24px;
+        cursor: pointer; }
+    .sign_weap .sign .sign_number {
+      border-bottom: 1px solid #f5f5f5;
+      padding-top: 20px;
+      margin-bottom: 24px; }
+      .sign_weap .sign .sign_number .sign_number_font {
+        font-size: 14px;
+        color: #000; }
+      .sign_weap .sign .sign_number .sign_number_input {
+        height: 40px;
+        font-size: 14px;
+        border: none;
+        background-color: #fff;
+        cursor: text;
+        outline: none; }
+        .sign_weap .sign .sign_number .sign_number_input::-webkit-input-placeholder {
+          color: #c3c3c3; }
+    .sign_weap .sign .sign_password {
+      border-bottom: 1px solid #f5f5f5;
+      padding-top: 20px;
+      margin-bottom: 24px; }
+      .sign_weap .sign .sign_password .sign_pssword_font {
+        font-size: 14px;
+        color: #000; }
+      .sign_weap .sign .sign_password .sign_pssword_input {
+        height: 40px;
+        font-size: 14px;
+        border: none;
+        background-color: #fff;
+        cursor: text;
+        outline: none; }
+        .sign_weap .sign .sign_password .sign_pssword_input::-webkit-input-placeholder {
+          color: #c3c3c3; }
+    .sign_weap .sign .sign_sure_button {
+      margin-top: 20px;
+      width: 140px;
+      height: 40px;
+      border-radius: 5px;
+      color: #fff;
+      background: #d1d2d8;
+      line-height: 40px;
+      font-weight: 100;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      width: 100%;
+      font-weight: 500; }
+    .sign_weap .sign .sign_other_inf {
+      display: flex;
+      margin-top: 150px;
+      color: #979797;
+      font-size: 12px;
+      font-weight: 400;
+      justify-content: left;
+      align-items: center;
+      position: relative;
+      bottom: 0; }
+      .sign_weap .sign .sign_other_inf span {
+        color: #f67052; }

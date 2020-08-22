@@ -1,0 +1,922 @@
+[
+		{
+			"id": 85,
+			"name": "综合商家",
+			"default_img": "special/2020/07/08/32952176f76760ec3cd03f71e19220a5.png",
+			"hover_img": "special/2020/07/08/2d14842ece2f671bc9fce8f7cecaccdf.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/32952176f76760ec3cd03f71e19220a5.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/2d14842ece2f671bc9fce8f7cecaccdf.png"
+			],
+			"stores": [
+				{
+					"store_id": "4089",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200519144426.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200513152415.png&store_logo_bg_color=%23204a79",
+					"store_name": "亚马逊海外购",
+					"store_urlname": "amazon-haiwaigou",
+					"rebate_view": "最高3%返利",
+					"rebate_influence_view": "46.6万人成功下单"
+				},
+				{
+					"store_id": "4806",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180521145512.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4806_000000_15694042493000.png&store_logo_bg_color=%23000000",
+					"store_name": "Harrods",
+					"store_urlname": "harrods-us",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "13万人成功下单"
+				},
+				{
+					"store_id": "1",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422134651.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191220151837.png&store_logo_bg_color=%23e3e3e3",
+					"store_name": "eBay",
+					"store_urlname": "eBay",
+					"rebate_view": "最高5%返利",
+					"rebate_influence_view": "47.9万人成功下单"
+				},
+				{
+					"store_id": "3964",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200330155807.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3964_000000_15694042493351.png&store_logo_bg_color=%23000000",
+					"store_name": "Selfridges US",
+					"store_urlname": "selfridges",
+					"rebate_view": "最高15.6%返利",
+					"rebate_influence_view": "29.7万人成功下单"
+				},
+				{
+					"store_id": "1541",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190710173947.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1541_000000_15694042493333.png&store_logo_bg_color=%23000000",
+					"store_name": "Saks Fifth Avenue 亚太站",
+					"store_urlname": "Saks-Fifth-Avenue",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "59.6万人成功下单"
+				},
+				{
+					"store_id": "4206",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153910.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191122192751.png&store_logo_bg_color=%237eb937",
+					"store_name": "德国BA保镖药房中文网",
+					"store_urlname": "ba",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "53.3万人成功下单"
+				},
+				{
+					"store_id": "1301",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422142853.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1301_000000_15694042493349.png&store_logo_bg_color=%23000000",
+					"store_name": "Nordstrom",
+					"store_urlname": "Nordstrom",
+					"rebate_view": "",
+					"rebate_influence_view": "57.8万人成功下单"
+				},
+				{
+					"store_id": "17",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190329094216.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F17_000000_1569404248121.png&store_logo_bg_color=%23000000",
+					"store_name": "Macy's",
+					"store_urlname": "Macys",
+					"rebate_view": "4%返利",
+					"rebate_influence_view": "60.3万人成功下单"
+				},
+				{
+					"store_id": "3915",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219152822.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3915_000000_15694042493443.png&store_logo_bg_color=%23000000",
+					"store_name": "Amazon.co.jp",
+					"store_urlname": "amazon.co.jp",
+					"rebate_view": "",
+					"rebate_influence_view": "53.1万人成功下单"
+				},
+				{
+					"store_id": "273",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180516112116.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F273_000000_15694042493386.png&store_logo_bg_color=%23000000",
+					"store_name": "Bloomingdales",
+					"store_urlname": "Bloomingdales",
+					"rebate_view": "最高12%返利",
+					"rebate_influence_view": "15.9万人成功下单"
+				}
+			]
+		},
+		{
+			"id": 90,
+			"name": "美妆个护",
+			"default_img": "special/2020/07/08/4a2430877c204ec209495650409b0115.png",
+			"hover_img": "special/2020/07/08/bf51669b2ac91253f0a6e8b643fc7e62.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/4a2430877c204ec209495650409b0115.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/bf51669b2ac91253f0a6e8b643fc7e62.png"
+			],
+			"stores": [
+				{
+					"store_id": "1700",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422135215.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1700_000000_15694042493181.png&store_logo_bg_color=%23000000",
+					"store_name": "Estee Lauder",
+					"store_urlname": "estee-lauder",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "156.8万人成功下单"
+				},
+				{
+					"store_id": "4546",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171222140334.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4546_000000_15694042492860.png&store_logo_bg_color=%23000000",
+					"store_name": "MAC Cosmetics",
+					"store_urlname": "mac-cosmetics",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "88.6万人成功下单"
+				},
+				{
+					"store_id": "3302",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200812100418.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200812101833.png&store_logo_bg_color=%23e3e3e3",
+					"store_name": "Lookfantastic",
+					"store_urlname": "lookfantastic",
+					"rebate_view": "最高18%返利",
+					"rebate_influence_view": "96.6万人成功下单"
+				},
+				{
+					"store_id": "4932",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180306105634.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191009153019.png&store_logo_bg_color=%236f1673",
+					"store_name": "Colourpop",
+					"store_urlname": "colourpop",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "16.6万人成功下单"
+				},
+				{
+					"store_id": "1343",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20191109112011.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1343_000000_15694042492360.png&store_logo_bg_color=%23000000",
+					"store_name": "Origins",
+					"store_urlname": "Origins",
+					"rebate_view": "9%返利",
+					"rebate_influence_view": "39.6万人成功下单"
+				},
+				{
+					"store_id": "2852",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20150106131850.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F2852_000000_15694042492551.png&store_logo_bg_color=%23000000",
+					"store_name": "La Mer",
+					"store_urlname": "la-mer",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "17.5万人成功下单"
+				},
+				{
+					"store_id": "432",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200617154552.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F432_000000_15694042493329.png&store_logo_bg_color=%23000000",
+					"store_name": "Clinique",
+					"store_urlname": "Clinique",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "33.4万人成功下单"
+				},
+				{
+					"store_id": "1617",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200615172123.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200721190958.png&store_logo_bg_color=%23e3e3e3",
+					"store_name": "SkinStore",
+					"store_urlname": "Skin-Store",
+					"rebate_view": "最高24%返利",
+					"rebate_influence_view": "31.4万人成功下单"
+				},
+				{
+					"store_id": "4568",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20161117101804.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4568_000000_15694042481943.png&store_logo_bg_color=%23000000",
+					"store_name": "Cult Beauty",
+					"store_urlname": "cult-beauty",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "26.2万人成功下单"
+				},
+				{
+					"store_id": "645",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200612133304.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191009182125.png&store_logo_bg_color=%23c20e30",
+					"store_name": "Elizabeth Arden",
+					"store_urlname": "Elizabeth-Arden",
+					"rebate_view": "14%返利",
+					"rebate_influence_view": "12.4万人成功下单"
+				}
+			]
+		},
+		{
+			"id": 129,
+			"name": "服饰包袋",
+			"default_img": "special/2020/07/08/6a4bb23efb750493defb8f2a3854c16b.png",
+			"hover_img": "special/2020/07/08/3df70c47537b539dcb7486ab347a5d32.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/6a4bb23efb750493defb8f2a3854c16b.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/3df70c47537b539dcb7486ab347a5d32.png"
+			],
+			"stores": [
+				{
+					"store_id": "4048",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200518175857.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191008173957.png&store_logo_bg_color=%23000000",
+					"store_name": "Farfetch 发发奇",
+					"store_urlname": "farfetch",
+					"rebate_view": "最高12%返利",
+					"rebate_influence_view": "17.3万人成功下单"
+				},
+				{
+					"store_id": "4243",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190520153300.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191008164325.png&store_logo_bg_color=%23000000",
+					"store_name": "NET-A-PORTER 英国站",
+					"store_urlname": "net-a-porter.uk",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "9.3万人成功下单"
+				},
+				{
+					"store_id": "1673",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180510144553.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1673_000000_15694042493953.png&store_logo_bg_color=%23000000",
+					"store_name": "SSENSE",
+					"store_urlname": "ssense",
+					"rebate_view": "最高18%返利",
+					"rebate_influence_view": "13.3万人成功下单"
+				},
+				{
+					"store_id": "4054",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200520174416.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200520135144.png&store_logo_bg_color=%231d1d1b",
+					"store_name": "MATCHESFASHION",
+					"store_urlname": "matchesfashion",
+					"rebate_view": "最高14.4%返利",
+					"rebate_influence_view": "6.3万人成功下单"
+				},
+				{
+					"store_id": "4686",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20191113095809.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4686_000000_15694042493737.png&store_logo_bg_color=%23000000",
+					"store_name": "Coach UK",
+					"store_urlname": "coach-uk",
+					"rebate_view": "10%返利",
+					"rebate_influence_view": "5万人成功下单"
+				},
+				{
+					"store_id": "3976",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20170914100018.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3976_000000_15694042492983.png&store_logo_bg_color=%23000000",
+					"store_name": "Shopbop",
+					"store_urlname": "shopbop",
+					"rebate_view": "最高10.8%返利",
+					"rebate_influence_view": "21.9万人成功下单"
+				},
+				{
+					"store_id": "3921",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180614162958.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3921_000000_15694042482080.png&store_logo_bg_color=%23000000",
+					"store_name": "LUISAVIAROMA",
+					"store_urlname": "luisaviaroma",
+					"rebate_view": "最高15.6%返利",
+					"rebate_influence_view": "6.6万人成功下单"
+				},
+				{
+					"store_id": "4137",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180903105120.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4137_000000_15694042493473.png&store_logo_bg_color=%23000000",
+					"store_name": "Mytheresa",
+					"store_urlname": "mytheresa",
+					"rebate_view": "",
+					"rebate_influence_view": "7.4万人成功下单"
+				},
+				{
+					"store_id": "6791",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180530110113.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F6791_000000_15694042481111.png&store_logo_bg_color=%23000000",
+					"store_name": "COS",
+					"store_urlname": "cosstores",
+					"rebate_view": "4%返利",
+					"rebate_influence_view": "2.7万人成功下单"
+				},
+				{
+					"store_id": "6767",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180502134042.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200603202825.png&store_logo_bg_color=%23000000",
+					"store_name": "&other stories",
+					"store_urlname": "stories",
+					"rebate_view": "6%返利",
+					"rebate_influence_view": "2.5万人成功下单"
+				}
+			]
+		},
+		{
+			"id": 128,
+			"name": "球鞋潮鞋",
+			"default_img": "special/2020/07/08/2b97367da8eafd3525d824cc3fcf650f.png",
+			"hover_img": "special/2020/07/08/9b4de0956d9a13ce5c7b5aa23e6eb1af.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/2b97367da8eafd3525d824cc3fcf650f.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/9b4de0956d9a13ce5c7b5aa23e6eb1af.png"
+			],
+			"stores": [
+				{
+					"store_id": "617",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180510142859.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F617_0e3242_15694042481198.png&store_logo_bg_color=%230e3242",
+					"store_name": "Eastbay",
+					"store_urlname": "Eastbay",
+					"rebate_view": "3%返利",
+					"rebate_influence_view": "41.9万人成功下单"
+				},
+				{
+					"store_id": "722",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200430174831.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F722_000000_15694042492937.png&store_logo_bg_color=%23000000",
+					"store_name": "FinishLine",
+					"store_urlname": "finishline",
+					"rebate_view": "最高7.5%返利",
+					"rebate_influence_view": "40.4万人成功下单"
+				},
+				{
+					"store_id": "742",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180510143556.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F742_f12336_1569404248408.png&store_logo_bg_color=%23f12336",
+					"store_name": "Foot Locker",
+					"store_urlname": "foot-locker",
+					"rebate_view": "3%返利",
+					"rebate_influence_view": "12.6万人成功下单"
+				},
+				{
+					"store_id": "4529",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200430180259.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4529_000000_15694042481840.png&store_logo_bg_color=%23000000",
+					"store_name": "Footaction",
+					"store_urlname": "footaction",
+					"rebate_view": "4%返利",
+					"rebate_influence_view": "3.5万人成功下单"
+				},
+				{
+					"store_id": "3979",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180510144832.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200526174754.png&store_logo_bg_color=%23000000",
+					"store_name": "Joes New Balance Outlet",
+					"store_urlname": "joes-new-balance-outlet",
+					"rebate_view": "3%返利",
+					"rebate_influence_view": "10.3万人成功下单"
+				},
+				{
+					"store_id": "391",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20170401154516.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191122192119.png&store_logo_bg_color=%23f5f5f5",
+					"store_name": "Champs Sports",
+					"store_urlname": "champs-sports",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "4.1万人成功下单"
+				},
+				{
+					"store_id": "1462",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190918093433.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1462_000000_15694042481248.png&store_logo_bg_color=%23000000",
+					"store_name": "Puma US",
+					"store_urlname": "Puma",
+					"rebate_view": "10%返利",
+					"rebate_influence_view": "12.4万人成功下单"
+				},
+				{
+					"store_id": "4070",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20150629115746.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4070_000000_15694042492394.png&store_logo_bg_color=%23000000",
+					"store_name": "Adidas US",
+					"store_urlname": "adidas-us",
+					"rebate_view": "1%返利",
+					"rebate_influence_view": "4.3万人成功下单"
+				},
+				{
+					"store_id": "6746",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180404114627.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200603202911.png&store_logo_bg_color=%23000000",
+					"store_name": "size?",
+					"store_urlname": "size",
+					"rebate_view": "最高4%返利",
+					"rebate_influence_view": "1.5万人成功下单"
+				},
+				{
+					"store_id": "2938",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180918095746.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191008174317.png&store_logo_bg_color=%23000000",
+					"store_name": "Jimmy Jazz",
+					"store_urlname": "jimmy-jazz",
+					"rebate_view": "最高0.5%返利",
+					"rebate_influence_view": "5.2万人成功下单"
+				}
+			]
+		},
+		{
+			"id": 86,
+			"name": "母婴儿童",
+			"default_img": "special/2020/07/08/2d84938ac45a4c60c7c88a42cf2fa27c.png",
+			"hover_img": "special/2020/07/08/bb23ef14e9cfe31976d50b3b0b0f41f1.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/2d84938ac45a4c60c7c88a42cf2fa27c.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/bb23ef14e9cfe31976d50b3b0b0f41f1.png"
+			],
+			"stores": [
+				{
+					"store_id": "3152",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200430094625.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3152_3d851b_15694042493455.png&store_logo_bg_color=%233d851b",
+					"store_name": "iHerb",
+					"store_urlname": "iherb",
+					"rebate_view": "最高12%返利",
+					"rebate_influence_view": "65.5万人成功下单"
+				},
+				{
+					"store_id": "3241",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153837.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3241_c4015f_15694042482175.png&store_logo_bg_color=%23c4015f",
+					"store_name": "Windeln.de",
+					"store_urlname": "Windeln",
+					"rebate_view": "最高14.4%返利",
+					"rebate_influence_view": "33.8万人成功下单"
+				},
+				{
+					"store_id": "2982",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153749.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191008173755.png&store_logo_bg_color=%23000000",
+					"store_name": "Vitacost",
+					"store_urlname": "vitacost",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "29.5万人成功下单"
+				},
+				{
+					"store_id": "4206",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153910.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191122192751.png&store_logo_bg_color=%237eb937",
+					"store_name": "德国BA保镖药房中文网",
+					"store_urlname": "ba",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "53.3万人成功下单"
+				},
+				{
+					"store_id": "2755",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180510140555.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F2755_00a2e3_15694042493708.png&store_logo_bg_color=%2300a2e3",
+					"store_name": "Carter's ",
+					"store_urlname": "carters",
+					"rebate_view": "1.5%返利",
+					"rebate_influence_view": "18.4万人成功下单"
+				},
+				{
+					"store_id": "4749",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153247.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4749_afd661_15694042492716.png&store_logo_bg_color=%23afd661",
+					"store_name": "BabyHaven",
+					"store_urlname": "babyhaven",
+					"rebate_view": "最高2%返利",
+					"rebate_influence_view": "5.5万人成功下单"
+				},
+				{
+					"store_id": "3919",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153530.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3919_E7E7E7_15694042493249.png&store_logo_bg_color=%23E7E7E7",
+					"store_name": "Kidsroom.de",
+					"store_urlname": "kidsroom.de",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "8万人成功下单"
+				},
+				{
+					"store_id": "579",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153713.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191220155137.png&store_logo_bg_color=%23002353",
+					"store_name": "shopDisney 迪士尼美国官网",
+					"store_urlname": "shopdisney",
+					"rebate_view": "1%返利",
+					"rebate_influence_view": "6.9万人成功下单"
+				},
+				{
+					"store_id": "2942",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422135749.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F2942_359FDF_15694042481835.png&store_logo_bg_color=%23359FDF",
+					"store_name": "Oshkosh B'gosh",
+					"store_urlname": "oshkoshgosh",
+					"rebate_view": "2%返利",
+					"rebate_influence_view": "4万人成功下单"
+				},
+				{
+					"store_id": "1514",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422140105.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1514_Robeez_15694042481501.png&store_logo_bg_color=%23a2c9e8",
+					"store_name": "Robeez",
+					"store_urlname": "Robeez",
+					"rebate_view": "7%返利",
+					"rebate_influence_view": "3.2万人成功下单"
+				}
+			]
+		},
+		{
+			"id": 88,
+			"name": "食品保健",
+			"default_img": "special/2020/07/08/cf451c48ea2974ccae16156a1c96aace.png",
+			"hover_img": "special/2020/07/08/ff03a342996d3db0d91a3ff17ee7933f.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/cf451c48ea2974ccae16156a1c96aace.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/ff03a342996d3db0d91a3ff17ee7933f.png"
+			],
+			"stores": [
+				{
+					"store_id": "806",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200227142227.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F806_f10c38_1569404248628.png&store_logo_bg_color=%23f10c38",
+					"store_name": "GNC",
+					"store_urlname": "GNC",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "28.2万人成功下单"
+				},
+				{
+					"store_id": "1464",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153646.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1464_00457d_15694042492659.png&store_logo_bg_color=%2300457d",
+					"store_name": "Puritan's Pride 普丽普莱",
+					"store_urlname": "Puritans-Pride",
+					"rebate_view": "6%返利",
+					"rebate_influence_view": "10.4万人成功下单"
+				},
+				{
+					"store_id": "4068",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20150624155447.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4068_00529d_15694042481950.png&store_logo_bg_color=%2300529d",
+					"store_name": "Chemist Warehouse",
+					"store_urlname": "chemist-warehouse",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "87.1万人成功下单"
+				},
+				{
+					"store_id": "4203",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20170413170533.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200526174200.png&store_logo_bg_color=%231b204e",
+					"store_name": "PharmacyOnline中文官网",
+					"store_urlname": "cn.pharmacyonline.com.au",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "29.2万人成功下单"
+				},
+				{
+					"store_id": "4206",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153910.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191122192751.png&store_logo_bg_color=%237eb937",
+					"store_name": "德国BA保镖药房中文网",
+					"store_urlname": "ba",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "53.3万人成功下单"
+				},
+				{
+					"store_id": "3152",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200430094625.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3152_3d851b_15694042493455.png&store_logo_bg_color=%233d851b",
+					"store_name": "iHerb",
+					"store_urlname": "iherb",
+					"rebate_view": "最高12%返利",
+					"rebate_influence_view": "65.5万人成功下单"
+				},
+				{
+					"store_id": "4202",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20160120093250.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4202_F6670A_15694042482183.png&store_logo_bg_color=%23F6670A",
+					"store_name": "澳洲Chemist Direct药房中文网",
+					"store_urlname": "cn.chemistdirect.com.au",
+					"rebate_view": "2%返利",
+					"rebate_influence_view": "13.7万人成功下单"
+				},
+				{
+					"store_id": "4387",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20170629151358.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4387_F7C600_1569404248494.png&store_logo_bg_color=%23F7C600",
+					"store_name": "德国apo商城",
+					"store_urlname": "apodiscounter-cn",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "7.4万人成功下单"
+				},
+				{
+					"store_id": "2809",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422135638.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191008173831.png&store_logo_bg_color=%233C1C0D",
+					"store_name": "Godiva 歌帝梵美国官网",
+					"store_urlname": "godiva",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "4.2万人成功下单"
+				},
+				{
+					"store_id": "2761",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20150729154237.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F2761_d6b25b_15694042493383.png&store_logo_bg_color=%23d6b25b",
+					"store_name": "Lindt",
+					"store_urlname": "Lindt",
+					"rebate_view": "1%返利",
+					"rebate_influence_view": "2.1万人成功下单"
+				}
+			]
+		},
+		{
+			"id": 92,
+			"name": "户外运动",
+			"default_img": "special/2020/07/08/d5506ce8a249b58a6a83543e18a4ee12.png",
+			"hover_img": "special/2020/07/08/b004ddd5afe9c0063231b76585ec45a0.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/d5506ce8a249b58a6a83543e18a4ee12.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/b004ddd5afe9c0063231b76585ec45a0.png"
+			],
+			"stores": [
+				{
+					"store_id": "1600",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190627104329.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1600_000000_15694042493302.png&store_logo_bg_color=%23000000",
+					"store_name": "Sierra",
+					"store_urlname": "Sierra-Trading-Post",
+					"rebate_view": "2.5%返利",
+					"rebate_influence_view": "10.1万人成功下单"
+				},
+				{
+					"store_id": "1214",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190828120319.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1214_a20001_15694042481617.png&store_logo_bg_color=%23a20001",
+					"store_name": "Moosejaw",
+					"store_urlname": "Moosejaw",
+					"rebate_view": "6%返利",
+					"rebate_influence_view": "7.8万人成功下单"
+				},
+				{
+					"store_id": "192",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180510135507.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F192_0c0604_15694042492841.png&store_logo_bg_color=%230c0604",
+					"store_name": "Backcountry",
+					"store_urlname": "Backcountry",
+					"rebate_view": "最高6%返利",
+					"rebate_influence_view": "11.1万人成功下单"
+				},
+				{
+					"store_id": "4503",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190828115535.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4503_272727_1569404248983.png&store_logo_bg_color=%23272727",
+					"store_name": "MountainSteals.com",
+					"store_urlname": "mountain-steals",
+					"rebate_view": "4%返利",
+					"rebate_influence_view": "2.9万人成功下单"
+				},
+				{
+					"store_id": "4171",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171117110018.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4171_333333_15694042493109.png&store_logo_bg_color=%23333333",
+					"store_name": "Steep&Cheap",
+					"store_urlname": "steepandcheap",
+					"rebate_view": "4%返利",
+					"rebate_influence_view": "3.6万人成功下单"
+				},
+				{
+					"store_id": "1367",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140913120601.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200526174835.png&store_logo_bg_color=%23000000",
+					"store_name": "Patagonia",
+					"store_urlname": "Patagonia",
+					"rebate_view": "",
+					"rebate_influence_view": "2.6万人成功下单"
+				},
+				{
+					"store_id": "445",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422134147.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F445_0193cf_15694042493303.png&store_logo_bg_color=%230193cf",
+					"store_name": "Columbia",
+					"store_urlname": "columbia-sportswear",
+					"rebate_view": "7%返利",
+					"rebate_influence_view": "3.6万人成功下单"
+				},
+				{
+					"store_id": "3210",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422134422.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3210_000000_15694042493331.png&store_logo_bg_color=%23000000",
+					"store_name": "Mountain Hardwear",
+					"store_urlname": "mountainhardwear",
+					"rebate_view": "6%返利",
+					"rebate_influence_view": "1.5万人成功下单"
+				},
+				{
+					"store_id": "4133",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20151008103018.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4133_000000_15694042481986.png&store_logo_bg_color=%23000000",
+					"store_name": "BOGNER",
+					"store_urlname": "bogner",
+					"rebate_view": "6%返利",
+					"rebate_influence_view": "4409人成功下单"
+				},
+				{
+					"store_id": "3817",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140616105531.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3817_003d8e_15694042493592.png&store_logo_bg_color=%23003d8e",
+					"store_name": "SC24",
+					"store_urlname": "SC24",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "2.7万人成功下单"
+				}
+			]
+		},
+		{
+			"id": 87,
+			"name": "钟表饰品",
+			"default_img": "special/2020/07/08/6f7ade4a9d9c4d527fb26130662c8019.png",
+			"hover_img": "special/2020/07/08/9fd4d04ed86ce4cdb3d8478fd88936ff.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/6f7ade4a9d9c4d527fb26130662c8019.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/9fd4d04ed86ce4cdb3d8478fd88936ff.png"
+			],
+			"stores": [
+				{
+					"store_id": "150",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180510135344.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F150_da3e38_15694042493504.png&store_logo_bg_color=%23da3e38",
+					"store_name": "Ashford",
+					"store_urlname": "Ashford",
+					"rebate_view": "最高18%返利",
+					"rebate_influence_view": "13.5万人成功下单"
+				},
+				{
+					"store_id": "2921",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171219153500.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191008173906.png&store_logo_bg_color=%23000000",
+					"store_name": "Jomashop",
+					"store_urlname": "jomashop",
+					"rebate_view": "",
+					"rebate_influence_view": "15.1万人成功下单"
+				},
+				{
+					"store_id": "748",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20121102161004.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F748_242021_15694042492815.png&store_logo_bg_color=%23242021",
+					"store_name": "Fossil",
+					"store_urlname": "Fossil",
+					"rebate_view": "1%返利",
+					"rebate_influence_view": "1.8万人成功下单"
+				},
+				{
+					"store_id": "3327",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140513110909.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3327_313131_15694042493156.png&store_logo_bg_color=%23313131",
+					"store_name": "The Watch Hut",
+					"store_urlname": "TheWatchHut",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "8946人成功下单"
+				},
+				{
+					"store_id": "2100",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20150612093122.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F2100_000000_15694042493448.png&store_logo_bg_color=%23000000",
+					"store_name": "World of Watches",
+					"store_urlname": "World-of-Watches",
+					"rebate_view": "",
+					"rebate_influence_view": "1.7万人成功下单"
+				},
+				{
+					"store_id": "2136",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20160413102501.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F2136_000000_15694042492786.png&store_logo_bg_color=%23000000",
+					"store_name": "Swarovski US",
+					"store_urlname": "swarovski",
+					"rebate_view": "最高6%返利",
+					"rebate_influence_view": "16.6万人成功下单"
+				},
+				{
+					"store_id": "4716",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20170327143845.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4716_2e2d3b_1569404248997.png&store_logo_bg_color=%232e2d3b",
+					"store_name": "Missoma",
+					"store_urlname": "missoma",
+					"rebate_view": "最高10%返利",
+					"rebate_influence_view": "2.1万人成功下单"
+				},
+				{
+					"store_id": "3036",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422141108.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3036_fc161b_15694042481996.png&store_logo_bg_color=%23fc161b",
+					"store_name": "Ray-Ban",
+					"store_urlname": "ray-ban",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "2.9万人成功下单"
+				},
+				{
+					"store_id": "2306",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422141140.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F2306_1a1918_15694042494060.png&store_logo_bg_color=%231a1918",
+					"store_name": "Sunglass Hut",
+					"store_urlname": "Sunglass-Hut",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "2.5万人成功下单"
+				},
+				{
+					"store_id": "7823",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20191008152035.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191008165259.png&store_logo_bg_color=%23000000",
+					"store_name": "Monica Vinader UK",
+					"store_urlname": "monicavinaderuk",
+					"rebate_view": "10%返利",
+					"rebate_influence_view": "1905人成功下单"
+				}
+			]
+		},
+		{
+			"id": 130,
+			"name": "酒店机票",
+			"default_img": "special/2020/07/08/82245166fe29c3e3ebcd255156f1a1ef.png",
+			"hover_img": "special/2020/07/08/c754ef817b91da01a4059cf4d31838d2.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/82245166fe29c3e3ebcd255156f1a1ef.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/c754ef817b91da01a4059cf4d31838d2.png"
+			],
+			"stores": [
+				{
+					"store_id": "4691",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180605153714.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4691_007dfe_15694042481711.png&store_logo_bg_color=%23007dfe",
+					"store_name": "Trip.com",
+					"store_urlname": "ctrip-hk",
+					"rebate_view": "最高4.5%返利",
+					"rebate_influence_view": "3.5万人成功下单"
+				},
+				{
+					"store_id": "4479",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190508162708.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4479_00347d_15694042494027.png&store_logo_bg_color=%2300347d",
+					"store_name": "缤客中国",
+					"store_urlname": "booking-cn",
+					"rebate_view": "4%返利",
+					"rebate_influence_view": "1.7万人成功下单"
+				},
+				{
+					"store_id": "1444",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140422135415.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F1444_007afa_1569404248637.png&store_logo_bg_color=%23007afa",
+					"store_name": "Priceline.com",
+					"store_urlname": "pricelinecom",
+					"rebate_view": "最高3%返利",
+					"rebate_influence_view": "4.7万人成功下单"
+				},
+				{
+					"store_id": "884",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20181115100616.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F884_000000_15694042493683.png&store_logo_bg_color=%23000000",
+					"store_name": "Hilton",
+					"store_urlname": "hilton",
+					"rebate_view": "最高6%返利",
+					"rebate_influence_view": "3.3万人成功下单"
+				},
+				{
+					"store_id": "919",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20170615194758.gif?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F919_db2d35_15694042493022.png&store_logo_bg_color=%23db2d35",
+					"store_name": "Hotels.com",
+					"store_urlname": "Hotels.com",
+					"rebate_view": "最高2%返利",
+					"rebate_influence_view": "2.8万人成功下单"
+				},
+				{
+					"store_id": "3230",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190327180100.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3230_929292_15694042481418.png&store_logo_bg_color=%23929292",
+					"store_name": "Agoda",
+					"store_urlname": "agoda",
+					"rebate_view": "5%返利",
+					"rebate_influence_view": "2.9万人成功下单"
+				},
+				{
+					"store_id": "952",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20140623173545.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F952_db6928_15694042492302.png&store_logo_bg_color=%23db6928",
+					"store_name": "InterContinental Hotels Group",
+					"store_urlname": "intercontinental-hotels",
+					"rebate_view": "",
+					"rebate_influence_view": "1.2万人成功下单"
+				},
+				{
+					"store_id": "4797",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20170615193519.gif?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4797_fb2142_15694042481329.png&store_logo_bg_color=%23fb2142",
+					"store_name": "Hotels.com APAC",
+					"store_urlname": "Hotels.apac",
+					"rebate_view": "最高6%返利",
+					"rebate_influence_view": "1.6万人成功下单"
+				},
+				{
+					"store_id": "3277",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/new/20131219143844.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F3277_072437_15694042493629.png&store_logo_bg_color=%23072437",
+					"store_name": "Accorhotels",
+					"store_urlname": "accorhotels",
+					"rebate_view": "最高5%返利",
+					"rebate_influence_view": "1.7万人成功下单"
+				},
+				{
+					"store_id": "4868",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20171030181829.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4868_626367_15694042492637.png&store_logo_bg_color=%23626367",
+					"store_name": "Points",
+					"store_urlname": "points",
+					"rebate_view": "最高2.5%返利",
+					"rebate_influence_view": "5576人成功下单"
+				}
+			]
+		},
+		{
+			"id": 131,
+			"name": "国内商家",
+			"default_img": "special/2020/07/08/4934c1ecadb90c35f53501580d93ffc9.png",
+			"hover_img": "special/2020/07/08/4e5d68339e384ead66cf9de7fc00753d.png",
+			"pics": [
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/4934c1ecadb90c35f53501580d93ffc9.png",
+				"https://cdn.55haitao.com/bbs/data/attachment/special/2020/07/08/4e5d68339e384ead66cf9de7fc00753d.png"
+			],
+			"stores": [
+				{
+					"store_id": "4815",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20200430115851.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4815_313131_15694042492569.png&store_logo_bg_color=%23313131",
+					"store_name": "Apple中国官网",
+					"store_urlname": "apple-cn",
+					"rebate_view": "最高3%返利",
+					"rebate_influence_view": "6.5万人成功下单"
+				},
+				{
+					"store_id": "2173",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180711111145.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F2173_0e0e34_1569404248729.png&store_logo_bg_color=%230e0e34",
+					"store_name": "Blue Nile中国官网",
+					"store_urlname": "blue-nile-asia",
+					"rebate_view": "4%返利",
+					"rebate_influence_view": "1.6万人成功下单"
+				},
+				{
+					"store_id": "4601",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20170119170736.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4601_000000_15694042492877.png&store_logo_bg_color=%23000000",
+					"store_name": "NIKE中国官网",
+					"store_urlname": "nike耐克",
+					"rebate_view": "最高8%返利",
+					"rebate_influence_view": "10.4万人成功下单"
+				},
+				{
+					"store_id": "7198",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190301164714.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F7198_fa580a_15694042482115.png&store_logo_bg_color=%23fa580a",
+					"store_name": "淘宝",
+					"store_urlname": "taobao1",
+					"rebate_view": "最高40%返利",
+					"rebate_influence_view": "4.6万人成功下单"
+				},
+				{
+					"store_id": "4502",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20160906143913.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F4502_e01e1f_15694042493045.png&store_logo_bg_color=%23e01e1f",
+					"store_name": "京东",
+					"store_urlname": "jd",
+					"rebate_view": "最高36%返利",
+					"rebate_influence_view": "13.8万人成功下单"
+				},
+				{
+					"store_id": "7165",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190215141431.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F7165_f40009_15694042493823.png&store_logo_bg_color=%23f40009",
+					"store_name": "拼多多",
+					"store_urlname": "yangkeduo",
+					"rebate_view": "最高45%返利",
+					"rebate_influence_view": "2.6万人成功下单"
+				},
+				{
+					"store_id": "4497",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20191025165928.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20191025170059.png&store_logo_bg_color=%23db1111",
+					"store_name": "考拉海购",
+					"store_urlname": "kaola",
+					"rebate_view": "最高18.4%返利",
+					"rebate_influence_view": "4.9万人成功下单"
+				},
+				{
+					"store_id": "7057",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20181025182208.jpg?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F7057_eb0102_15694042492963.png&store_logo_bg_color=%23eb0102",
+					"store_name": "安德玛中国官网",
+					"store_urlname": "underarmour",
+					"rebate_view": "最高18%返利",
+					"rebate_influence_view": "1.3万人成功下单"
+				},
+				{
+					"store_id": "6961",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20180815145521.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200526184253.png&store_logo_bg_color=%232390d1",
+					"store_name": "视客眼镜网",
+					"store_urlname": "vsigo",
+					"rebate_view": "最高24%返利",
+					"rebate_influence_view": "1.9万人成功下单"
+				},
+				{
+					"store_id": "7162",
+					"store_logo": "https://cdn.55haitao.com/bbs/data/attachment/store/20190213161325.png?replace_img=https%3A%2F%2Fcdn.55haitao.com%2Fbbs%2Fdata%2Fattachment%2Fstore%2F20200529120937.png&store_logo_bg_color=%23ffc246",
+					"store_name": "飞猪",
+					"store_urlname": "click",
+					"rebate_view": "最高5%返利",
+					"rebate_influence_view": "1.5万人成功下单"
+				}
+			]
+		}
+	]
